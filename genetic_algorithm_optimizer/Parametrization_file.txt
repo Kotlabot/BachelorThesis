@@ -1,0 +1,12 @@
+# Protein code from UniProt database:
+protein_code = A0A0K8P6T7
+# Defined restricted sites (that will not be mutated) such as binding sites or active sites:
+restricted_sites = 87,160,161,185,206,237
+# Defined alphabet of amino acids:
+amino_acids = ACDEFGHIKLMNPQRSTVWY
+# Number of individuals in population:
+number_of_individuals = 10
+# Number of generations of the evolution:
+number_of_generations = 5
+
+
