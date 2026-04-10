@@ -109,6 +109,13 @@ def get_wild_type_sequence(fasta_path):
     record = SeqIO.read(fasta_path, "fasta")
     return str(record.seq), len(record.seq)
 
+# Method to ensure correct position (not repeating).
+def enforce_unique_positions(individual):
+    seen = {}
+    for pos, aa in individual:
+        seen[pos] = aa
+    return [(pos, aa) for pos, aa in seen.items()]
+
 # Method to initialize a random population of mutants.
 def random_population_initialization(wild_type_sequence, wild_type_length, restricted_sites, amino_acids, population_size):
     population = []
@@ -120,6 +127,7 @@ def random_population_initialization(wild_type_sequence, wild_type_length, restr
     # Create a number of individuals according to population size 
     # (number of indiviuals defined in the parametrization file).
     for _ in range(population_size):
+        individual = []
         # Randomly select a position to mutate from the allowed positions.
         mutated_position = random.choice(allowed_positions)
         # Select allowed amino acids for mutation by excluding the wild-type amino acid.
@@ -128,12 +136,13 @@ def random_population_initialization(wild_type_sequence, wild_type_length, restr
         mutated_amino_acid = random.choice(allowed_amino_acids)
         # Each individual in the population is represented as a tuple containing the 
         # mutated position and the mutated amino acid.
-        individual = (mutated_position, mutated_amino_acid)
-        population.append(individual)
+        single_mutation = (mutated_position, mutated_amino_acid)
+        individual.append(single_mutation)
+        population.append(individual.copy())
     return population
 
-# Method to clean files produced by foldX before every run.
-def clean_foldx_outputs():
+# Method to delete files produced by foldX before every foldX run.
+def delete_foldx_files():
     for file in glob.glob("*.fxout") + glob.glob("*_*.pdb"):
         try:
             os.remove(file)
@@ -145,29 +154,39 @@ def clean_foldx_outputs():
 def create_mutation_list(population, wild_type_sequence):
     with open("individual_list.txt", "w") as f:
         for individual in population:
-            position, mutated_amino_acid = individual
-            wild_type_amino_acid = wild_type_sequence[position]
-
-            variant = f"{wild_type_amino_acid}A{position+1}{mutated_amino_acid};"
-            f.write(variant + "\n")
+            variants = []
+            for mutation in individual:
+                position, mutated_amino_acid = mutation
+                wild_type_amino_acid = wild_type_sequence[position]
+                # Pass the variant to foldX in correct format.
+                variant = f"{wild_type_amino_acid}A{position+1}{mutated_amino_acid}"
+                variants.append(variant)
+            
+            variants_string = ','.join(variants)
+            f.write(variants_string + ";" + "\n")
 
 
 # Method to calculate the fitness of population using protein stability predictor.
-def fitness_function(population):
-    clean_foldx_outputs()
+def fitness_function(population, protein_code):
+    delete_foldx_files()
+    pdb_filename = f"{protein_code}.pdb"
 
+    # Create a command passed to foldX to evaluate the population of mutations
+    # given the wild-type strcuture and a list of mutations.
     cmd = [
         "./foldx/foldx_20270131",
         "--command=BuildModel",
-        "--pdb=\"A0A0K8P6T7.pdb\"",
-        "--mutant-file=\"individual_list.txt\"",
+        f"--pdb={pdb_filename}",
+        "--mutant-file=individual_list.txt",
         "--noHeader=1"
     ]
     result = subprocess.run(cmd, capture_output=True, text=True)
     
+    # Output foldX results in every iteration (DEBUG THING).
     print("STDOUT:", result.stdout)
     print("STDERR:", result.stderr)
 
+    # Ensure to know if foldX fails the evaluation.
     if result.returncode != 0:
         print("FoldX crashed!")
         return [1e6] * len(population)
@@ -175,19 +194,26 @@ def fitness_function(population):
     fitness = []
 
     try:
-        with open("Dif_A0A0K8P6T7.fxout") as f:
+        output_file = f"Dif_{protein_code}.fxout"
+        # Read from foldX output file with energy differencies for the mutant structures.
+        with open(output_file) as f:
             lines = f.readlines()
 
         for line in lines:
-            if line.startswith("A0A0K8P6T7"):
+            if line.startswith(protein_code):
                 parts = line.split()
 
                 if len(parts) < 2:
                     continue
-
+                
+                # Extract the energy difference used as fitness.
                 ddg = float(parts[1])
 
+                # Append the energy difference to fitness list with opposite sign.
+                # Negative ddG means the mutation is stabilizing, but we want to 
+                # maximaze the fitness so pass ddG with opposite sign.
                 fitness.append(-ddg)
+        # Check if the fitness was correctly computed for the whole population.
         if(len(fitness) != len(population)): 
             print("Fitness and population size is NOT the same! Fitness length:", len(fitness), "population length:", len(population)) 
     except Exception as e: 
@@ -198,47 +224,78 @@ def fitness_function(population):
 
 # Method to perform selection of individuals for the next generation using elitism and tournament selection.
 def selection(population, fitness, restricted_sites, amino_acids, wild_type_sequence, elitism_rate=0.2):
-    # Combine population and fitness into a single list of tuples.
-    combined = list(zip(population, fitness))
-    # Sort the combined list by fitness in descending order (maximum fitness first).
-    sorted_combined = sorted(combined, key=lambda x: x[1], reverse=True) 
-    # Calculate the number of elite individuals to keep and extract them to next generation.
-    elite_count = max(1, int(len(population) * elitism_rate)) 
-    elite_individuals = [individual for individual, _ in sorted_combined[:elite_count]] 
-    # Extract the remaining individuals for selection.
-    remaining_individuals = sorted_combined[elite_count:] 
+    combined = sorted(zip(population, fitness), key=lambda x: x[1], reverse=True)
 
-    # For remaining individuals perform the tournament selection.
-    selected_population = []
-    # To prevent infinite loops in case of issues with mutation or selection.
-    attempts = 0
-    max_attempts = 1000  # To prevent infinite loops in case of issues with mutation or selection.
-    while len(selected_population) < len(population) - elite_count and attempts < max_attempts:
-        # Choose the fittest parent from 3 randomly picked individuals.
-        tournament = random.sample(remaining_individuals, 3) 
-        parent = max(tournament, key=lambda x: x[1])[0] 
-        # Create offspring by mutating the parent and ensure the offspring is unique in the next generation.
-        offspring = mutation(parent, restricted_sites, amino_acids, wild_type_sequence) 
-        if offspring not in selected_population and offspring not in elite_individuals: 
-            selected_population.append(offspring)
-        attempts += 1
-    
-    next_generation = elite_individuals + selected_population  
-    return next_generation
+    elite_count = max(1, int(len(population) * elitism_rate))
+    elites = [ind for ind, _ in combined[:elite_count]]
+
+    new_pop = elites.copy()
+
+    while len(new_pop) < len(population):
+        parent = random.choice(combined[:len(population)//2])[0]
+
+        r = random.random()
+        if r < 0.05 and len(parent) > 1:
+            offspring = parent[:-1]
+        elif r < 0.3:
+            parent2 = random.choice(combined)[0]
+            offspring = crossover(parent, parent2)
+        elif r < 0.7 and len(parent) < 4:
+            offspring = add_new_mutation(parent, restricted_sites, amino_acids, wild_type_sequence)
+        else:
+            offspring = mutation(parent, restricted_sites, amino_acids, wild_type_sequence)
+
+        new_pop.append(offspring)
+
+    return new_pop
+
+def add_new_mutation(parent, restricted_sites, amino_acids, wt_seq):
+    offspring = parent.copy()
+
+    allowed_positions = [
+        i for i in range(len(wt_seq))
+        if (i+1) not in restricted_sites
+        and all(p != i for p, _ in offspring)
+    ]
+
+    if not allowed_positions:
+        return offspring
+
+    pos = random.choice(allowed_positions)
+    aa = random.choice([a for a in amino_acids if a != wt_seq[pos]])
+
+    offspring.append((pos, aa))
+    return enforce_unique_positions(offspring)
+
+
+def crossover(first_parent, second_parent):
+    offspring = []
+
+    offspring = [random.choice(first_parent)]
+    m2 = random.choice(second_parent)
+    if m2[0] != offspring[0][0]:
+        offspring.append(m2)
+    return enforce_unique_positions(offspring)
 
 # Method to perform mutation on an individual. 
-def mutation(individual, restricted_sites, amino_acids, wild_type_sequence):
-    mutated_position, mutated_amino_acid = individual
-    probability = random.random()
-    # With a 40% chance, mutate the position of the mutation while keeping the amino acid the same.
-    if probability < 0.4:
-        allowed_positions = [i for i in range(len(wild_type_sequence)) if (i+1) not in restricted_sites and i != mutated_position]
-        mutated_position = random.choice(allowed_positions)
-    # With a 60% chance, mutate the amino acid while keeping the same position of the mutation.
-    else:  
-        allowed_amino_acids = [amino_acid for amino_acid in amino_acids if amino_acid != wild_type_sequence[mutated_position] and amino_acid != mutated_amino_acid]
-        mutated_amino_acid = random.choice(allowed_amino_acids)
-    return (mutated_position, mutated_amino_acid) 
+def mutation(individual, restricted_sites, amino_acids, wt_seq):
+    offspring = individual.copy()
+    idx = random.randint(0, len(offspring)-1)
+    pos, aa = offspring[idx]
+
+    if random.random() < 0.4:
+        allowed_positions = [
+            i for i in range(len(wt_seq))
+            if (i+1) not in restricted_sites
+            and all(p != i for j,(p,_) in enumerate(offspring) if j != idx)
+        ]
+        if allowed_positions:
+            pos = random.choice(allowed_positions)
+    else:
+        aa = random.choice([a for a in amino_acids if a != wt_seq[pos] and a != aa])
+
+    offspring[idx] = (pos, aa)
+    return enforce_unique_positions(offspring)
 
 def main():
     file_path = 'Parametrization_file.txt'
@@ -262,18 +319,22 @@ def main():
 
     for _ in range(number_of_generations):
         create_mutation_list(population, wild_type_sequence)
-        fitness = fitness_function(population)
+        fitness = fitness_function(population, protein_code)
         print(list(zip(population[:5], fitness[:5])))
         max_fitness.append(max(fitness))
         population = selection(population, fitness, restricted_sites, amino_acids, wild_type_sequence)
     
     create_mutation_list(population, wild_type_sequence)
-    last_gen_fitness = fitness_function(population)
+    last_gen_fitness = fitness_function(population, protein_code)
     max_fitness.append(max(last_gen_fitness))
-    bestIndividual = population[np.argmax(last_gen_fitness)]
+    
+    combined = sorted(zip(population, fitness), key=lambda x: x[1], reverse=True)
 
-    print(f'Best Individual: {bestIndividual}')
-    print(f'Max Fitness over Generations: {max_fitness}')
+    print("\nTop 10 individuals:")
+    for i, (ind, fit) in enumerate(combined[:10], 1):
+        print(f"{i}. {ind} -> {fit}")
+
+    print("Max fitness:", max_fitness)
 
 
 if __name__ == "__main__":    main()
