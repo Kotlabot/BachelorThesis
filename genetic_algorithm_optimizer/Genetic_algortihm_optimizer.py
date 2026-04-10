@@ -5,6 +5,8 @@ import requests
 import subprocess
 from pathlib import Path
 from Bio import SeqIO
+import os
+import glob
 
 # Method to parse the parametrization file and extract the necessary parameters
 # such as the protein code (UniProt ID), the restricted sites, the allowed amino acids,
@@ -130,30 +132,69 @@ def random_population_initialization(wild_type_sequence, wild_type_length, restr
         population.append(individual)
     return population
 
-# Method to calculate the fitness of an individual using protein stability predictor.
-def fitness_function(individual, wild_type_sequence):
-    position, mutated_amino_acid = individual
-    wild_type_amino_acid = wild_type_sequence[position]
+# Method to clean files produced by foldX before every run.
+def clean_foldx_outputs():
+    for file in glob.glob("*.fxout") + glob.glob("*_*.pdb"):
+        try:
+            os.remove(file)
+        except:
+            pass
 
-    variant = f"{wild_type_amino_acid}{position + 1}{mutated_amino_acid};"
-
+# Method to create a list of mutations of every individual in population, so the whole population
+# will be evaulated together.
+def create_mutation_list(population, wild_type_sequence):
     with open("individual_list.txt", "w") as f:
-        for v in variant:
+        for individual in population:
+            position, mutated_amino_acid = individual
+            wild_type_amino_acid = wild_type_sequence[position]
+
+            variant = f"{wild_type_amino_acid}A{position+1}{mutated_amino_acid};"
             f.write(variant + "\n")
 
-    #{wild_type_amino_acid}{A}{position}{mutated_amino_acid};
+
+# Method to calculate the fitness of population using protein stability predictor.
+def fitness_function(population):
+    clean_foldx_outputs()
+
     cmd = [
         "./foldx/foldx_20270131",
         "--command=BuildModel",
         "--pdb=\"A0A0K8P6T7.pdb\"",
-        "--mutant-file=\"individual_list.txt\""
+        "--mutant-file=\"individual_list.txt\"",
+        "--noHeader=1"
     ]
     result = subprocess.run(cmd, capture_output=True, text=True)
     
     print("STDOUT:", result.stdout)
     print("STDERR:", result.stderr)
 
-    return random.random()  # TODO: Replace with fitness calculation 
+    if result.returncode != 0:
+        print("FoldX crashed!")
+        return [1e6] * len(population)
+
+    fitness = []
+
+    try:
+        with open("Dif_A0A0K8P6T7.fxout") as f:
+            lines = f.readlines()
+
+        for line in lines:
+            if line.startswith("A0A0K8P6T7"):
+                parts = line.split()
+
+                if len(parts) < 2:
+                    continue
+
+                ddg = float(parts[1])
+
+                fitness.append(-ddg)
+        if(len(fitness) != len(population)): 
+            print("Fitness and population size is NOT the same! Fitness length:", len(fitness), "population length:", len(population)) 
+    except Exception as e: 
+        print("Error reading ddG:", e) 
+        return [1e6] * len(population)
+
+    return fitness
 
 # Method to perform selection of individuals for the next generation using elitism and tournament selection.
 def selection(population, fitness, restricted_sites, amino_acids, wild_type_sequence, elitism_rate=0.2):
@@ -220,11 +261,14 @@ def main():
     max_fitness = []
 
     for _ in range(number_of_generations):
-        fitness = [fitness_function(individual, wild_type_sequence) for individual in population]
+        create_mutation_list(population, wild_type_sequence)
+        fitness = fitness_function(population)
+        print(list(zip(population[:5], fitness[:5])))
         max_fitness.append(max(fitness))
         population = selection(population, fitness, restricted_sites, amino_acids, wild_type_sequence)
     
-    last_gen_fitness = [fitness_function(individual, wild_type_sequence) for individual in population]
+    create_mutation_list(population, wild_type_sequence)
+    last_gen_fitness = fitness_function(population)
     max_fitness.append(max(last_gen_fitness))
     bestIndividual = population[np.argmax(last_gen_fitness)]
 
