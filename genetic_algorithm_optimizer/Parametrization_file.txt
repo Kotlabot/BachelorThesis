@@ -5,8 +5,8 @@ restricted_sites = 87,160,161,185,206,237
 # Defined alphabet of amino acids:
 amino_acids = ACDEFGHIKLMNPQRSTVWY
 # Number of individuals in population:
-number_of_individuals = 10
+number_of_individuals = 50
 # Number of generations of the evolution:
-number_of_generations = 5
+number_of_generations = 50
 
 

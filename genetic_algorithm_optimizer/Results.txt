@@ -1,0 +1,2299 @@
+1. RUN 
+    Parameters: 50 individuals, 20 generations, selection of better half of population, tournament size = 3, elitism rate = 0.2
+    Top 10 individuals:
+    1. [(53, 'W'), (112, 'P'), (76, 'E'), (219, 'R')]: ddG = -5.545132 kcal/mol
+    2. [(53, 'W'), (112, 'P'), (76, 'R'), (185, 'M')]: ddG = -5.24035 kcal/mol
+    3. [(53, 'W'), (112, 'P'), (76, 'R'), (185, 'M')]: ddG = -5.219794 kcal/mol
+    4. [(53, 'W'), (112, 'P'), (283, 'M'), (185, 'M')]: ddG = -5.114288 kcal/mol
+    5. [(53, 'W'), (112, 'P'), (76, 'E'), (44, 'R')]: ddG = -5.0344 kcal/mol
+    6. [(53, 'W'), (112, 'P'), (76, 'E')]: ddG = -4.9586559999999995 kcal/mol
+    7. [(53, 'W'), (112, 'P'), (76, 'E'), (10, 'D')]: ddG = -4.916656 kcal/mol
+    8. [(185, 'M'), (112, 'P')]: ddG = -4.823704 kcal/mol
+    9. [(53, 'W'), (112, 'P'), (76, 'E'), (219, 'K')]: ddG = -4.721756 kcal/mol
+    10. [(53, 'W'), (112, 'P'), (76, 'M'), (185, 'F')]: ddG = -4.71839 kcal/mol
+
+    Max fitness over generations: [-2.464826, -2.64013, -3.217398, -3.36727, -3.74477, 
+    -3.750564, -4.033346, -4.523614, -4.904643999999999, -4.904643999999999, -4.904643999999999, 
+    -4.904643999999999, -4.904643999999999, -4.904643999999999, -4.904643999999999, -5.353268, 
+    -5.545132, -5.545132, -5.545132, -5.545132, -5.5538739999999995]
+
+2. RUN 
+    Parameters: 50 individuals, 30 generations, selection from the whole population, tournament size = 3, elitism rate = 0.05
+    Protein Code: A0A0K8P6T7
+    Restricted Sites: [87, 160, 161, 185, 206, 237]
+    Amino Acids: ACDEFGHIKLMNPQRSTVWY
+    Number of Individuals: 50
+    Number of Generations: 30
+    Wild-Type Sequence: MNFPRASRLMQAAVLGGLMAVSAAATAQTNPYARGPNPTAASLEASAGPFTVRSFTVSRPSGYGAGTVYYPTNAGGTVGAIAIVPGYTARQSSIKWWGPRLASH
+    GFVVITIDTNSTLDQPSSRSSQQMAALRQVASLNGTSSSPIYGKVDTARMGVMGWSMGGGGSLISAANNPSLKAAAPQAPWDSSTNFSSVTVPTLIFACENDSIAPVNSSALPIYDSMSRNAKQF
+    LEINGGSHSCANSGNSNQALIGKKGVAWMKRFMDNDTRYSTFACENPNSTRVSDFRTANCS
+    Wild-Type Length: 290
+    Initial Population: [[(29, 'I')], [(214, 'F')], [(247, 'C')], [(29, 'G')], [(44, 'H')], [(144, 'S')], [(24, 'L')], [(166, 'W')], 
+    [(112, 'M')], [(35, 'N')], [(191, 'A')], [(182, 'Y')], [(83, 'F')], [(30, 'N')], [(227, 'I')], [(169, 'T')], [(222, 'I')], [(272, 'M')], 
+    [(240, 'K')], [(249, 'M')], [(142, 'F')], [(52, 'P')], [(225, 'G')], [(23, 'M')], [(40, 'K')], [(169, 'W')], [(191, 'Q')], [(19, 'P')], 
+    [(133, 'K')], [(289, 'V')], [(97, 'M')], [(251, 'F')], [(80, 'C')], [(34, 'T')], [(151, 'P')], [(53, 'L')], [(39, 'L')], [(103, 'F')], 
+    [(144, 'H')], [(51, 'Y')], [(95, 'K')], [(270, 'A')], [(82, 'M')], [(24, 'P')], [(263, 'S')], [(209, 'W')], [(206, 'T')], [(110, 'K')], 
+    [(126, 'Y')], [(42, 'R')]]
+
+    Top 5 individuals from generation number 0:
+    1. [(103, 'F')]: ddG = -1.6917266666666666 kcal/mol
+    2. [(53, 'L')]: ddG = -1.5286766666666667 kcal/mol
+    3. [(112, 'M')]: ddG = -0.6294016666666667 kcal/mol
+    4. [(24, 'P')]: ddG = -0.525416 kcal/mol
+    5. [(251, 'F')]: ddG = -0.3101063333333333 kcal/mol
+    Average fitness of generation: 4.122260236
+
+    Top 5 individuals from generation number 1:
+    1. [(112, 'P')]: ddG = -3.6302299999999996 kcal/mol
+    2. [(103, 'F')]: ddG = -1.7117733333333334 kcal/mol
+    3. [(53, 'L'), (24, 'L')]: ddG = -1.7027400000000001 kcal/mol
+    4. [(53, 'L')]: ddG = -1.6026533333333333 kcal/mol
+    5. [(53, 'E')]: ddG = -1.2604673333333334 kcal/mol
+    Average fitness of generation: 2.6071132128666665
+
+    Top 5 individuals from generation number 2:
+    1. [(112, 'P')]: ddG = -4.400216666666666 kcal/mol
+    2. [(112, 'P'), (51, 'Y')]: ddG = -3.4118999999999997 kcal/mol
+    3. [(53, 'W'), (44, 'H')]: ddG = -1.86148 kcal/mol
+    4. [(103, 'F'), (24, 'L')]: ddG = -1.84025 kcal/mol
+    5. [(103, 'F'), (24, 'L')]: ddG = -1.7832766666666666 kcal/mol
+    Average fitness of generation: 1.868875766
+
+    Top 5 individuals from generation number 3:
+    1. [(103, 'F'), (112, 'P')]: ddG = -5.368423333333333 kcal/mol
+    2. [(112, 'P'), (23, 'N')]: ddG = -4.9691366666666665 kcal/mol
+    3. [(112, 'P')]: ddG = -4.400216666666666 kcal/mol
+    4. [(112, 'P'), (197, 'I')]: ddG = -3.69136 kcal/mol
+    5. [(112, 'P'), (51, 'Y')]: ddG = -3.3696733333333335 kcal/mol
+    Average fitness of generation: 2.0984472298
+
+    Top 5 individuals from generation number 4:
+    1. [(112, 'P'), (115, 'L')]: ddG = -6.745493333333333 kcal/mol
+    2. [(103, 'F'), (112, 'P')]: ddG = -6.116036666666666 kcal/mol
+    3. [(112, 'P'), (23, 'N'), (147, 'L')]: ddG = -5.908806666666666 kcal/mol
+    4. [(112, 'P'), (23, 'N')]: ddG = -4.53866 kcal/mol
+    5. [(112, 'P'), (51, 'Y'), (1, 'G')]: ddG = -3.9101866666666667 kcal/mol
+    Average fitness of generation: 2.195832324
+
+    Top 5 individuals from generation number 5:
+    1. [(112, 'P'), (115, 'L')]: ddG = -5.961053333333333 kcal/mol
+    2. [(103, 'F'), (112, 'P')]: ddG = -4.936046666666666 kcal/mol
+    3. [(112, 'P')]: ddG = -4.410229999999999 kcal/mol
+    4. [(103, 'T'), (112, 'P')]: ddG = -4.087026666666667 kcal/mol
+    5. [(181, 'L'), (112, 'P')]: ddG = -3.7236666666666665 kcal/mol
+    Average fitness of generation: -0.08791626999999998
+
+    Top 5 individuals from generation number 6:
+    1. [(112, 'P'), (115, 'L'), (3, 'C')]: ddG = -6.120993333333334 kcal/mol
+    2. [(103, 'F'), (112, 'P')]: ddG = -6.039316666666667 kcal/mol
+    3. [(112, 'P'), (115, 'L')]: ddG = -5.961053333333333 kcal/mol
+    4. [(112, 'P'), (53, 'L')]: ddG = -5.390716666666667 kcal/mol
+    5. [(112, 'P'), (115, 'L'), (241, 'M')]: ddG = -5.04657 kcal/mol
+    Average fitness of generation: -0.6562473646666667
+
+    Top 5 individuals from generation number 7:
+    1. [(112, 'P'), (115, 'L'), (3, 'C')]: ddG = -5.959693333333333 kcal/mol
+    2. [(112, 'P'), (103, 'F')]: ddG = -5.803946666666666 kcal/mol
+    3. [(112, 'P'), (115, 'L'), (87, 'K')]: ddG = -5.505886666666666 kcal/mol
+    4. [(103, 'F'), (112, 'P')]: ddG = -5.437543333333333 kcal/mol
+    5. [(112, 'P'), (3, 'Q'), (212, 'Q')]: ddG = -5.20751 kcal/mol
+    Average fitness of generation: -0.20299322533333325
+
+    Top 5 individuals from generation number 8:
+    1. [(112, 'P'), (115, 'L'), (87, 'C')]: ddG = -6.043793333333333 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (3, 'C')]: ddG = -5.959693333333333 kcal/mol
+    3. [(103, 'F'), (112, 'P')]: ddG = -5.745433333333334 kcal/mol
+    4. [(103, 'F'), (112, 'P')]: ddG = -5.731753333333334 kcal/mol
+    5. [(112, 'P'), (115, 'L'), (3, 'C'), (128, 'H')]: ddG = -5.673306666666666 kcal/mol
+    Average fitness of generation: 1.284277693333333
+
+    Top 5 individuals from generation number 9:
+    1. [(112, 'P'), (115, 'L'), (3, 'C'), (45, 'M')]: ddG = -6.823883333333334 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (87, 'K'), (118, 'F')]: ddG = -6.316086666666667 kcal/mol
+    3. [(112, 'P'), (103, 'F'), (24, 'P')]: ddG = -6.262323333333334 kcal/mol
+    4. [(112, 'P'), (115, 'L'), (3, 'C')]: ddG = -6.13168 kcal/mol
+    5. [(103, 'F'), (112, 'P'), (18, 'L')]: ddG = -5.944206666666666 kcal/mol
+    Average fitness of generation: -0.3076350782
+
+    Top 5 individuals from generation number 10:
+    1. [(112, 'P'), (115, 'L'), (3, 'Y'), (64, 'S')]: ddG = -8.179599999999999 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (3, 'C'), (45, 'M')]: ddG = -6.97937 kcal/mol
+    3. [(112, 'P'), (115, 'L'), (3, 'C'), (45, 'M')]: ddG = -6.224436666666667 kcal/mol
+    4. [(112, 'P'), (103, 'F')]: ddG = -5.801266666666667 kcal/mol
+    5. [(103, 'F'), (112, 'P')]: ddG = -5.740083333333334 kcal/mol
+    Average fitness of generation: -0.12023715866666647
+
+    Top 5 individuals from generation number 11:
+    1. [(112, 'P'), (115, 'L'), (3, 'Y'), (64, 'S')]: ddG = -7.7639466666666666 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (87, 'K'), (118, 'D')]: ddG = -7.3262833333333335 kcal/mol
+    3. [(112, 'P'), (115, 'L'), (3, 'C'), (45, 'M')]: ddG = -6.382133333333333 kcal/mol
+    4. [(112, 'P'), (115, 'L'), (212, 'M')]: ddG = -6.152296666666667 kcal/mol
+    5. [(103, 'F'), (112, 'P')]: ddG = -6.082356666666667 kcal/mol
+    Average fitness of generation: -0.23340712133333344
+
+    Top 5 individuals from generation number 12:
+    1. [(112, 'P'), (115, 'L'), (3, 'Y'), (64, 'S')]: ddG = -7.7639466666666666 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (87, 'K'), (118, 'D')]: ddG = -7.498079999999999 kcal/mol
+    3. [(112, 'P'), (115, 'L'), (87, 'K'), (280, 'I')]: ddG = -7.086066666666667 kcal/mol
+    4. [(112, 'P'), (115, 'F'), (3, 'K'), (45, 'M')]: ddG = -6.9433333333333325 kcal/mol
+    5. [(112, 'P'), (115, 'L'), (3, 'G'), (45, 'K')]: ddG = -6.608843333333334 kcal/mol
+    Average fitness of generation: -1.4051526042666667
+
+    Top 5 individuals from generation number 13:
+    1. [(112, 'P'), (115, 'L'), (3, 'Y'), (64, 'S')]: ddG = -7.7639466666666666 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (87, 'K'), (118, 'D')]: ddG = -7.498079999999999 kcal/mol
+    3. [(214, 'P'), (115, 'L'), (87, 'K'), (118, 'D')]: ddG = -6.95835 kcal/mol
+    4. [(112, 'P'), (115, 'L'), (3, 'Y')]: ddG = -6.62788 kcal/mol
+    5. [(112, 'P'), (115, 'K'), (3, 'C'), (45, 'H')]: ddG = -6.099619999999999 kcal/mol
+    Average fitness of generation: -2.413208046
+
+    Top 5 individuals from generation number 14:
+    1. [(112, 'P'), (115, 'L'), (3, 'Y'), (64, 'S')]: ddG = -7.7639466666666666 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (87, 'K'), (118, 'D')]: ddG = -7.498079999999999 kcal/mol
+    3. [(112, 'P'), (115, 'K'), (3, 'C'), (45, 'E')]: ddG = -7.061656666666667 kcal/mol
+    4. [(214, 'P'), (115, 'L'), (87, 'Y'), (118, 'D')]: ddG = -6.906883333333333 kcal/mol
+    5. [(112, 'P'), (115, 'L'), (3, 'H')]: ddG = -6.5064633333333335 kcal/mol
+    Average fitness of generation: -0.7457662399999998
+
+    Top 5 individuals from generation number 15:
+    1. [(112, 'P'), (115, 'L'), (3, 'Y'), (64, 'S')]: ddG = -7.7639466666666666 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (87, 'K'), (118, 'D')]: ddG = -7.498079999999999 kcal/mol
+    3. [(112, 'P'), (115, 'L'), (244, 'D')]: ddG = -6.43837 kcal/mol
+    4. [(64, 'S'), (112, 'P'), (274, 'L'), (58, 'D')]: ddG = -6.061956666666667 kcal/mol
+    5. [(186, 'P'), (115, 'L'), (87, 'K'), (118, 'D')]: ddG = -5.931986666666667 kcal/mol
+    Average fitness of generation: -1.5279718133333333
+
+    Top 5 individuals from generation number 16:
+    1. [(112, 'P'), (115, 'L'), (3, 'Y'), (64, 'S')]: ddG = -7.7639466666666666 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (87, 'K'), (118, 'D')]: ddG = -7.498079999999999 kcal/mol
+    3. [(112, 'P'), (115, 'L')]: ddG = -6.693756666666666 kcal/mol
+    4. [(112, 'P'), (115, 'L'), (3, 'Y')]: ddG = -6.35429 kcal/mol
+    5. [(112, 'P'), (115, 'P'), (3, 'Y'), (45, 'M')]: ddG = -6.277333333333334 kcal/mol
+    Average fitness of generation: -2.1696121676
+
+    Top 5 individuals from generation number 17:
+    1. [(112, 'P'), (115, 'L'), (3, 'H'), (64, 'S')]: ddG = -7.785183333333333 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (3, 'Y'), (64, 'S')]: ddG = -7.7639466666666666 kcal/mol
+    3. [(112, 'P'), (115, 'L'), (87, 'K'), (118, 'D')]: ddG = -7.498079999999999 kcal/mol
+    4. [(112, 'P'), (115, 'P'), (3, 'Y'), (45, 'C')]: ddG = -6.381496666666667 kcal/mol
+    5. [(112, 'P'), (115, 'L'), (3, 'Y'), (64, 'C')]: ddG = -6.277853333333333 kcal/mol
+    Average fitness of generation: -0.9759617412666667
+
+    Top 5 individuals from generation number 18:
+    1. [(112, 'P'), (115, 'L'), (3, 'H'), (64, 'S')]: ddG = -7.79851 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (3, 'Y'), (64, 'S')]: ddG = -7.650723333333334 kcal/mol
+    3. [(64, 'S'), (112, 'P'), (71, 'R')]: ddG = -6.228583333333333 kcal/mol
+    4. [(112, 'P'), (115, 'L'), (268, 'Y'), (60, 'D')]: ddG = -6.082253333333334 kcal/mol
+    5. [(112, 'P'), (115, 'L'), (3, 'H'), (64, 'F')]: ddG = -6.024016666666667 kcal/mol
+    Average fitness of generation: -1.1638132526666667
+
+    Top 5 individuals from generation number 19:
+    1. [(112, 'P'), (115, 'L'), (3, 'H'), (64, 'S')]: ddG = -7.79851 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (3, 'Y'), (64, 'S')]: ddG = -7.650723333333334 kcal/mol
+    3. [(112, 'P'), (115, 'D'), (3, 'H'), (64, 'Y')]: ddG = -6.35695 kcal/mol
+    4. [(112, 'P'), (115, 'L'), (3, 'H'), (64, 'K')]: ddG = -6.327323333333333 kcal/mol
+    5. [(112, 'P'), (115, 'L'), (3, 'Y')]: ddG = -6.216266666666667 kcal/mol
+    Average fitness of generation: -1.0280930634
+
+    Top 5 individuals from generation number 20:
+    1. [(112, 'P'), (115, 'L'), (3, 'H'), (64, 'S')]: ddG = -7.79851 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (3, 'Y'), (64, 'S')]: ddG = -7.650723333333334 kcal/mol
+    3. [(112, 'P'), (115, 'L'), (3, 'K'), (64, 'S')]: ddG = -7.579813333333334 kcal/mol
+    4. [(112, 'P'), (115, 'L'), (3, 'H')]: ddG = -6.983546666666666 kcal/mol
+    5. [(115, 'L'), (112, 'P')]: ddG = -5.9507200000000005 kcal/mol
+    Average fitness of generation: -1.301895258
+
+    Top 5 individuals from generation number 21:
+    1. [(112, 'P'), (115, 'L'), (3, 'H'), (64, 'S')]: ddG = -7.79851 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (3, 'Y'), (64, 'S')]: ddG = -7.650723333333334 kcal/mol
+    3. [(112, 'P'), (115, 'L')]: ddG = -6.54211 kcal/mol
+    4. [(112, 'P'), (115, 'L'), (3, 'Y'), (53, 'S')]: ddG = -6.528753333333333 kcal/mol
+    5. [(112, 'P'), (115, 'L'), (3, 'Y'), (64, 'M')]: ddG = -6.490636666666667 kcal/mol
+    Average fitness of generation: -2.2952658
+
+    Top 5 individuals from generation number 22:
+    1. [(112, 'P'), (115, 'L'), (3, 'H'), (64, 'S')]: ddG = -7.79851 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (3, 'Y'), (64, 'S')]: ddG = -7.650723333333334 kcal/mol
+    3. [(112, 'P'), (115, 'L')]: ddG = -6.48056 kcal/mol
+    4. [(115, 'L'), (112, 'P'), (194, 'G')]: ddG = -5.996803333333333 kcal/mol
+    5. [(112, 'P'), (115, 'L'), (3, 'Y')]: ddG = -5.9328666666666665 kcal/mol
+    Average fitness of generation: -1.0024141533333333
+
+    Top 5 individuals from generation number 23:
+    1. [(112, 'P'), (115, 'L'), (3, 'H'), (64, 'S')]: ddG = -7.79851 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (3, 'Y'), (64, 'S')]: ddG = -7.650723333333334 kcal/mol
+    3. [(112, 'P'), (115, 'Q'), (3, 'Y'), (64, 'S')]: ddG = -6.588889999999999 kcal/mol
+    4. [(112, 'P'), (115, 'L'), (212, 'Y')]: ddG = -6.037113333333333 kcal/mol
+    5. [(112, 'P'), (29, 'L'), (43, 'D'), (64, 'S')]: ddG = -5.655833333333334 kcal/mol
+    Average fitness of generation: -0.4386859306666666
+
+    Top 5 individuals from generation number 24:
+    1. [(112, 'P'), (115, 'L'), (3, 'H'), (64, 'S')]: ddG = -7.79851 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (3, 'Y'), (64, 'S')]: ddG = -7.650723333333334 kcal/mol
+    3. [(112, 'P'), (115, 'L'), (285, 'H'), (64, 'S')]: ddG = -6.56635 kcal/mol
+    4. [(112, 'P'), (115, 'M'), (3, 'Y'), (64, 'N')]: ddG = -6.142040000000001 kcal/mol
+    5. [(112, 'P'), (115, 'L'), (3, 'H'), (13, 'S')]: ddG = -6.084093333333333 kcal/mol
+    Average fitness of generation: -2.3964805939873326
+
+    Top 5 individuals from generation number 25:
+    1. [(112, 'P'), (115, 'P'), (3, 'H'), (64, 'S')]: ddG = -7.887323333333334 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (3, 'H'), (64, 'S')]: ddG = -7.79851 kcal/mol
+    3. [(112, 'P'), (115, 'L'), (3, 'Y'), (64, 'S')]: ddG = -7.650723333333334 kcal/mol
+    4. [(112, 'P'), (115, 'M'), (103, 'Y'), (64, 'N')]: ddG = -6.996623333333333 kcal/mol
+    5. [(112, 'P'), (115, 'L'), (3, 'F'), (64, 'S')]: ddG = -6.880966666666667 kcal/mol
+    Average fitness of generation: -1.8493939866666667
+
+    Top 5 individuals from generation number 26:
+    1. [(112, 'P'), (115, 'P'), (3, 'H'), (64, 'S')]: ddG = -7.612513333333332 kcal/mol
+    2. [(112, 'P'), (115, 'L'), (3, 'H'), (64, 'S')]: ddG = -6.748333333333334 kcal/mol
+    3. [(112, 'P'), (115, 'L')]: ddG = -6.52552 kcal/mol
+    4. [(112, 'P'), (115, 'R'), (3, 'Y'), (64, 'S')]: ddG = -6.190553333333334 kcal/mol
+    5. [(112, 'P'), (115, 'Q'), (3, 'Y'), (64, 'E')]: ddG = -5.921586666666666 kcal/mol
+    Average fitness of generation: -1.9048828666666666
+
+    Top 5 individuals from generation number 27:
+    1. [(112, 'P'), (115, 'P'), (3, 'H'), (64, 'S')]: ddG = -7.612513333333332 kcal/mol
+    2. [(112, 'P'), (115, 'P'), (3, 'H')]: ddG = -7.04239 kcal/mol
+    3. [(112, 'P'), (115, 'L'), (3, 'H'), (64, 'S')]: ddG = -6.748333333333334 kcal/mol
+    4. [(112, 'P'), (3, 'H'), (103, 'W')]: ddG = -6.704373333333334 kcal/mol
+    5. [(115, 'P'), (112, 'P')]: ddG = -6.49071 kcal/mol
+    Average fitness of generation: -1.45287822
+
+    Top 5 individuals from generation number 28:
+    1. [(112, 'P'), (115, 'P'), (3, 'Y'), (64, 'S')]: ddG = -8.059803333333333 kcal/mol
+    2. [(112, 'P'), (115, 'P'), (3, 'H'), (64, 'S')]: ddG = -7.612513333333332 kcal/mol
+    3. [(115, 'P'), (112, 'P'), (187, 'R')]: ddG = -7.569766666666666 kcal/mol
+    4. [(112, 'P'), (115, 'P'), (3, 'G'), (64, 'S')]: ddG = -7.56897 kcal/mol
+    5. [(112, 'P'), (115, 'L'), (3, 'F'), (64, 'S')]: ddG = -6.957886666666667 kcal/mol
+    Average fitness of generation: -2.146602425333333
+
+    Top 5 individuals from generation number 29:
+    1. [(112, 'P'), (115, 'P'), (3, 'Y'), (64, 'S')]: ddG = -7.577953333333333 kcal/mol
+    2. [(112, 'P'), (115, 'P'), (3, 'H'), (64, 'S')]: ddG = -7.427566666666666 kcal/mol
+    3. [(112, 'P'), (115, 'P'), (3, 'Y'), (64, 'W')]: ddG = -7.37611 kcal/mol
+    4. [(112, 'P'), (115, 'R'), (3, 'G'), (64, 'S')]: ddG = -7.098400000000001 kcal/mol
+    5. [(214, 'P'), (112, 'P'), (45, 'M')]: ddG = -6.636163333333333 kcal/mol
+    Average fitness of generation: -1.6343419033333333
+
+    Top 10 individuals:
+    1. [(112, 'P'), (115, 'P'), (3, 'M'), (64, 'S')]: ddG = -7.703163333333333 kcal/mol
+    2. [(112, 'P'), (115, 'P'), (3, 'Y'), (64, 'S')]: ddG = -7.577953333333333 kcal/mol
+    3. [(112, 'P'), (115, 'P'), (3, 'H'), (64, 'S')]: ddG = -7.427566666666666 kcal/mol
+    4. [(112, 'P'), (115, 'P'), (3, 'Y'), (64, 'F')]: ddG = -7.242406666666667 kcal/mol
+    5. [(112, 'P'), (115, 'P'), (118, 'Y'), (64, 'W')]: ddG = -6.7772499999999996 kcal/mol
+    6. [(112, 'P'), (115, 'R'), (3, 'Y'), (64, 'S')]: ddG = -6.675540000000001 kcal/mol
+    7. [(112, 'P'), (115, 'P'), (3, 'Y')]: ddG = -6.466223333333333 kcal/mol
+    8. [(112, 'P'), (115, 'P'), (146, 'Y'), (64, 'S')]: ddG = -6.4078566666666665 kcal/mol
+    9. [(112, 'P'), (115, 'P'), (3, 'H'), (64, 'L')]: ddG = -6.1127899999999995 kcal/mol
+    10. [(112, 'P'), (115, 'L')]: ddG = -5.710703333333334 kcal/mol
+
+    Max fitness over generations:
+    [-1.6917266666666666, -3.6302299999999996, -4.400216666666666, -5.368423333333333, -6.745493333333333, -5.961053333333333,
+     -6.120993333333334, -5.959693333333333, -6.043793333333333, -6.823883333333334, -8.179599999999999, -7.7639466666666666, 
+     -7.7639466666666666, -7.7639466666666666, -7.7639466666666666, -7.7639466666666666, -7.7639466666666666, -7.785183333333333, 
+     -7.79851, -7.79851, -7.79851, -7.79851, -7.79851, -7.79851, -7.79851, -7.887323333333334, -7.612513333333332, -7.612513333333332, 
+     -8.059803333333333, -7.577953333333333, -7.703163333333333]
+
+3. RUN (PARALLEL)
+    Protein Code: A0A0K8P6T7
+    Restricted Sites: [87, 160, 161, 185, 206, 237]
+    Amino Acids: ACDEFGHIKLMNPQRSTVWY
+    Number of Individuals: 30
+    Number of Generations: 30
+    Wild-Type Sequence: MNFPRASRLMQAAVLGGLMAVSAAATAQTNPYARGPNPTAASLEASAGPFTVRSFTVSRPSGYGAGTVYYPTNAGGTVGAIAIVPGYTARQSSIKWWGPRLASHGFVVITIDTNSTLDQPSSRSSQQMAALRQVASLNGTSSSPIYGKVDTARMGVMGWSMGGGGSLISAANNPSLKAAAPQAPWDSSTNFSSVTVPTLIFACENDSIAPVNSSALPIYDSMSRNAKQFLEINGGSHSCANSGNSNQALIGKKGVAWMKRFMDNDTRYSTFACENPNSTRVSDFRTANCS
+    Wild-Type Length: 290
+    Initial Population: [[(129, 'R')], [(250, 'A')], [(167, 'A')], [(128, 'S')], [(28, 'M')], [(128, 'E')], [(270, 'K')], [(75, 'C')], [(199, 'N')], [(272, 'E')], [(190, 'R')], [(244, 'Y')], [(187, 'F')], [(105, 'Y')], [(174, 'Q')], [(9, 'H')], [(67, 'L')], [(94, 'Q')], [(197, 'N')], [(212, 'A')], [(79, 'P')], [(237, 'C')], [(19, 'N')], [(122, 'W')], [(240, 'T')], [(220, 'A')], [(77, 'S')], [(288, 'P')], [(125, 'S')], [(237, 'P')]]
+
+    Top 5 individuals from generation number 0:
+    1. [(237, 'P')]: ddG = -0.6658336666666667 kcal/mol
+    2. [(67, 'L')]: ddG = -0.23219727566666667 kcal/mol
+    3. [(19, 'N')]: ddG = -0.189237 kcal/mol
+    4. [(174, 'Q')]: ddG = -0.15821333333333332 kcal/mol
+    5. [(28, 'M')]: ddG = -0.11610683333333334 kcal/mol
+    Average fitness of generation: 2.0601800130333334
+
+    Top 5 individuals from generation number 1:
+    1. [(19, 'N'), (237, 'P')]: ddG = -0.8550706666666666 kcal/mol
+    2. [(237, 'P')]: ddG = -0.6658336666666667 kcal/mol
+    3. [(244, 'Y'), (16, 'E')]: ddG = -0.4899846666666667 kcal/mol
+    4. [(237, 'Y')]: ddG = -0.3880616666666667 kcal/mol
+    5. [(174, 'Q'), (19, 'N')]: ddG = -0.34744966666666666 kcal/mol
+    Average fitness of generation: 2.518408655555555
+
+    Top 5 individuals from generation number 2:
+    1. [(67, 'L'), (237, 'P')]: ddG = -0.998812 kcal/mol
+    2. [(237, 'Y'), (273, 'M')]: ddG = -0.9842233333333334 kcal/mol
+    3. [(244, 'F'), (237, 'P')]: ddG = -0.8812076666666666 kcal/mol
+    4. [(19, 'N'), (237, 'P')]: ddG = -0.8550706666666666 kcal/mol
+    5. [(174, 'Q'), (237, 'P')]: ddG = -0.8258233333333332 kcal/mol
+    Average fitness of generation: 3.417254367477778
+
+    Top 5 individuals from generation number 3:
+    1. [(88, 'S'), (237, 'V')]: ddG = -1.2465033333333333 kcal/mol
+    2. [(174, 'Q'), (237, 'R')]: ddG = -1.102645 kcal/mol
+    3. [(244, 'F'), (237, 'Q')]: ddG = -1.0612599999999999 kcal/mol
+    4. [(67, 'L'), (237, 'P')]: ddG = -0.998812 kcal/mol
+    5. [(174, 'Q'), (237, 'P')]: ddG = -0.8258233333333332 kcal/mol
+    Average fitness of generation: 1.4143641944
+
+    Top 5 individuals from generation number 4:
+    1. [(273, 'M'), (237, 'R')]: ddG = -1.5139366666666667 kcal/mol
+    2. [(67, 'L'), (237, 'P'), (289, 'A')]: ddG = -1.2704603333333333 kcal/mol
+    3. [(88, 'S'), (237, 'V')]: ddG = -1.2465033333333333 kcal/mol
+    4. [(237, 'V'), (88, 'S')]: ddG = -1.2465033333333333 kcal/mol
+    5. [(88, 'S'), (237, 'N')]: ddG = -1.1196063333333333 kcal/mol
+    Average fitness of generation: 1.1852127885888888
+
+    Top 5 individuals from generation number 5:
+    1. [(273, 'M'), (237, 'R')]: ddG = -1.5139366666666667 kcal/mol
+    2. [(88, 'S'), (273, 'M')]: ddG = -1.3874166666666667 kcal/mol
+    3. [(87, 'M'), (237, 'R')]: ddG = -1.17716 kcal/mol
+    4. [(237, 'Y'), (88, 'S')]: ddG = -1.0034676666666666 kcal/mol
+    5. [(237, 'V'), (273, 'M')]: ddG = -0.962044 kcal/mol
+    Average fitness of generation: 1.8703098608111113
+
+    Top 5 individuals from generation number 6:
+    1. [(273, 'M'), (237, 'R'), (30, 'H'), (213, 'Q')]: ddG = -1.54582 kcal/mol
+    2. [(273, 'M'), (237, 'R')]: ddG = -1.5139366666666667 kcal/mol
+    3. [(237, 'M'), (88, 'S')]: ddG = -1.4817799999999999 kcal/mol
+    4. [(237, 'V'), (88, 'S')]: ddG = -1.2465033333333333 kcal/mol
+    5. [(237, 'Y'), (273, 'M')]: ddG = -0.9842233333333334 kcal/mol
+    Average fitness of generation: 2.5782047933333336
+
+    Top 5 individuals from generation number 7:
+    1. [(273, 'M'), (237, 'R'), (30, 'H'), (213, 'Q')]: ddG = -1.54582 kcal/mol
+    2. [(273, 'M'), (237, 'R'), (30, 'W'), (213, 'Q')]: ddG = -1.4422866666666667 kcal/mol
+    3. [(273, 'M'), (237, 'K'), (30, 'H'), (213, 'Q')]: ddG = -1.4420433333333333 kcal/mol
+    4. [(88, 'S'), (237, 'P')]: ddG = -1.40126 kcal/mol
+    5. [(273, 'M'), (88, 'S')]: ddG = -1.3874166666666667 kcal/mol
+    Average fitness of generation: 1.8127944666666667
+
+    Top 5 individuals from generation number 8:
+    1. [(273, 'M'), (237, 'R'), (30, 'D'), (213, 'Q')]: ddG = -2.3131633333333332 kcal/mol
+    2. [(273, 'M'), (237, 'R'), (30, 'H'), (213, 'L')]: ddG = -2.2738 kcal/mol
+    3. [(273, 'M'), (213, 'Q')]: ddG = -2.131823333333333 kcal/mol
+    4. [(88, 'S'), (237, 'K')]: ddG = -1.8441966666666667 kcal/mol
+    5. [(273, 'M'), (237, 'K'), (30, 'A'), (213, 'Q')]: ddG = -1.693736666666667 kcal/mol
+    Average fitness of generation: 1.4054656366666665
+
+    Top 5 individuals from generation number 9:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W')]: ddG = -4.3410400000000005 kcal/mol
+    2. [(273, 'M'), (237, 'R'), (30, 'D'), (213, 'Q')]: ddG = -2.3131633333333332 kcal/mol
+    3. [(273, 'M'), (237, 'L'), (30, 'A'), (213, 'Q')]: ddG = -2.2383366666666666 kcal/mol
+    4. [(273, 'M'), (213, 'Q')]: ddG = -2.131823333333333 kcal/mol
+    5. [(273, 'M'), (237, 'R'), (30, 'H'), (213, 'K')]: ddG = -1.9933366666666668 kcal/mol
+    Average fitness of generation: 0.3409370388888889
+
+    Top 5 individuals from generation number 10:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(273, 'M'), (213, 'Q'), (53, 'W'), (145, 'H')]: ddG = -4.585993333333334 kcal/mol
+    3. [(273, 'M'), (213, 'Q'), (53, 'W')]: ddG = -4.3410400000000005 kcal/mol
+    4. [(273, 'R'), (237, 'R'), (53, 'H'), (213, 'Q')]: ddG = -2.592096666666667 kcal/mol
+    5. [(237, 'L'), (88, 'S'), (110, 'L')]: ddG = -2.12931 kcal/mol
+    Average fitness of generation: 0.525702191111111
+
+    Top 5 individuals from generation number 11:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(273, 'F'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -4.523773333333334 kcal/mol
+    3. [(273, 'M'), (235, 'Q'), (53, 'W'), (259, 'C')]: ddG = -3.1473833333333334 kcal/mol
+    4. [(237, 'R'), (88, 'S'), (141, 'L')]: ddG = -2.0825133333333334 kcal/mol
+    5. [(126, 'M'), (235, 'P'), (11, 'W')]: ddG = -1.990573333333333 kcal/mol
+    Average fitness of generation: 0.9103033533333332
+
+    Top 5 individuals from generation number 12:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(273, 'M'), (235, 'P'), (53, 'W'), (259, 'C')]: ddG = -4.480326666666667 kcal/mol
+    3. [(147, 'R'), (53, 'W')]: ddG = -3.8394600000000003 kcal/mol
+    4. [(273, 'F'), (213, 'Q'), (53, 'W'), (259, 'T')]: ddG = -3.8174233333333336 kcal/mol
+    5. [(273, 'M'), (94, 'Q'), (53, 'W'), (259, 'C')]: ddG = -3.753816666666667 kcal/mol
+    Average fitness of generation: -0.374938978888889
+
+    Top 5 individuals from generation number 13:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(250, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.31517 kcal/mol
+    3. [(273, 'A'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -4.502009999999999 kcal/mol
+    4. [(273, 'L'), (213, 'Q'), (53, 'W'), (259, 'T')]: ddG = -4.301453333333334 kcal/mol
+    5. [(126, 'M'), (53, 'W')]: ddG = -4.102086666666667 kcal/mol
+    Average fitness of generation: -0.5867991533333333
+
+    Top 5 individuals from generation number 14:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(126, 'M'), (53, 'W'), (246, 'P')]: ddG = -4.421673333333334 kcal/mol
+    3. [(273, 'M'), (213, 'Q'), (53, 'W'), (39, 'H')]: ddG = -3.97676 kcal/mol
+    4. [(273, 'M'), (213, 'Q'), (53, 'E'), (259, 'C')]: ddG = -3.7129933333333334 kcal/mol
+    5. [(273, 'C'), (213, 'Q'), (53, 'W'), (259, 'T')]: ddG = -3.4944966666666666 kcal/mol
+    Average fitness of generation: -0.7720342344444444
+
+    Top 5 individuals from generation number 15:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(13, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -4.781183333333334 kcal/mol
+    3. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'T')]: ddG = -4.745 kcal/mol
+    4. [(273, 'M'), (213, 'N'), (53, 'W'), (259, 'C')]: ddG = -4.45119 kcal/mol
+    5. [(273, 'M'), (213, 'Q'), (53, 'W')]: ddG = -4.3410400000000005 kcal/mol
+    Average fitness of generation: 0.26956254555555553
+
+    Top 5 individuals from generation number 16:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'M')]: ddG = -5.17054 kcal/mol
+    3. [(273, 'A'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -4.502009999999999 kcal/mol
+    4. [(273, 'M'), (213, 'M'), (53, 'W'), (259, 'T')]: ddG = -4.214153333333333 kcal/mol
+    5. [(273, 'M'), (213, 'Q'), (53, 'W'), (245, 'M')]: ddG = -4.198226666666667 kcal/mol
+    Average fitness of generation: -0.5546599704444444
+
+    Top 5 individuals from generation number 17:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(273, 'L'), (213, 'Q'), (53, 'W'), (259, 'M')]: ddG = -4.86292 kcal/mol
+    3. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'T')]: ddG = -4.745 kcal/mol
+    4. [(273, 'M'), (213, 'Q'), (53, 'W'), (245, 'I')]: ddG = -4.653416666666666 kcal/mol
+    5. [(273, 'M'), (213, 'A'), (53, 'W'), (259, 'C')]: ddG = -4.296186666666667 kcal/mol
+    Average fitness of generation: 0.18435244666666656
+
+    Top 5 individuals from generation number 18:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(273, 'M'), (213, 'Q'), (53, 'W'), (194, 'C')]: ddG = -4.801010000000001 kcal/mol
+    3. [(273, 'M'), (213, 'Q'), (53, 'K'), (245, 'I')]: ddG = -4.44163 kcal/mol
+    4. [(273, 'M'), (213, 'L'), (53, 'H'), (259, 'M')]: ddG = -4.246183333333334 kcal/mol
+    5. [(273, 'M'), (213, 'Q'), (53, 'W'), (79, 'T')]: ddG = -4.0203999999999995 kcal/mol
+    Average fitness of generation: -0.14635437444444438
+
+    Top 5 individuals from generation number 19:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(273, 'M'), (213, 'Q'), (53, 'W')]: ddG = -4.3410400000000005 kcal/mol
+    3. [(273, 'M'), (213, 'Q'), (53, 'W'), (6, 'T')]: ddG = -4.311946666666667 kcal/mol
+    4. [(273, 'M'), (213, 'L'), (53, 'H'), (259, 'A')]: ddG = -4.25613 kcal/mol
+    5. [(237, 'R'), (53, 'W'), (90, 'L'), (106, 'I')]: ddG = -3.0801 kcal/mol
+    Average fitness of generation: -1.1203983663333332
+
+    Top 5 individuals from generation number 20:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(273, 'M'), (213, 'L'), (53, 'H'), (259, 'L')]: ddG = -4.81029 kcal/mol
+    3. [(273, 'A'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -4.502009999999999 kcal/mol
+    4. [(273, 'M'), (213, 'Q'), (53, 'W')]: ddG = -4.3410400000000005 kcal/mol
+    5. [(53, 'W'), (213, 'Q')]: ddG = -3.6655833333333336 kcal/mol
+    Average fitness of generation: -0.45289155111111123
+
+    Top 5 individuals from generation number 21:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(273, 'M'), (213, 'L'), (53, 'H'), (259, 'A')]: ddG = -4.25613 kcal/mol
+    3. [(213, 'Q'), (53, 'W')]: ddG = -3.6655833333333336 kcal/mol
+    4. [(273, 'A'), (213, 'E'), (53, 'W'), (259, 'C')]: ddG = -3.27134 kcal/mol
+    5. [(273, 'Q'), (213, 'Q'), (53, 'W'), (39, 'K')]: ddG = -2.9733433333333337 kcal/mol
+    Average fitness of generation: 1.7515899499999998
+
+    Top 5 individuals from generation number 22:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(273, 'M'), (213, 'D'), (53, 'W'), (259, 'C')]: ddG = -4.1482866666666665 kcal/mol
+    3. [(53, 'W'), (213, 'Q')]: ddG = -3.6655833333333336 kcal/mol
+    4. [(273, 'M'), (213, 'Q'), (124, 'W'), (259, 'C')]: ddG = -3.644066666666667 kcal/mol
+    5. [(273, 'G'), (213, 'L'), (53, 'H'), (259, 'A')]: ddG = -2.6754266666666666 kcal/mol
+    Average fitness of generation: 1.8372091144444447
+
+    Top 5 individuals from generation number 23:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(273, 'M'), (213, 'Q'), (53, 'F'), (259, 'C')]: ddG = -4.397076666666667 kcal/mol
+    3. [(273, 'M'), (213, 'G'), (53, 'W'), (259, 'C')]: ddG = -4.04825 kcal/mol
+    4. [(53, 'W'), (213, 'Q'), (33, 'L')]: ddG = -3.474066666666667 kcal/mol
+    5. [(273, 'L'), (213, 'L'), (53, 'H'), (259, 'A')]: ddG = -3.44997 kcal/mol
+    Average fitness of generation: 0.40609662933333335
+
+    Top 5 individuals from generation number 24:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(273, 'M'), (213, 'Q'), (53, 'W')]: ddG = -4.3410400000000005 kcal/mol
+    3. [(165, 'A'), (53, 'W')]: ddG = -3.499563333333333 kcal/mol
+    4. [(273, 'M'), (213, 'N'), (53, 'F'), (259, 'C')]: ddG = -3.2587166666666665 kcal/mol
+    5. [(273, 'M'), (213, 'Q'), (53, 'C'), (259, 'C')]: ddG = -3.25569 kcal/mol
+    Average fitness of generation: -0.4741672222222222
+
+    Top 5 individuals from generation number 25:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'S')]: ddG = -4.611023333333333 kcal/mol
+    3. [(277, 'M'), (213, 'Q'), (53, 'C'), (259, 'C')]: ddG = -3.8110766666666667 kcal/mol
+    4. [(165, 'A'), (53, 'W'), (12, 'L')]: ddG = -3.7847066666666667 kcal/mol
+    5. [(273, 'M'), (213, 'N'), (53, 'F'), (259, 'N')]: ddG = -2.9894700000000003 kcal/mol
+    Average fitness of generation: 1.2134183044444444
+
+    Top 5 individuals from generation number 26:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(277, 'M'), (213, 'K'), (53, 'C'), (259, 'C')]: ddG = -4.180226666666667 kcal/mol
+    3. [(277, 'R'), (213, 'Q'), (53, 'C'), (259, 'C')]: ddG = -3.0587199999999997 kcal/mol
+    4. [(273, 'M'), (213, 'N'), (53, 'F'), (259, 'S')]: ddG = -2.5381066666666663 kcal/mol
+    5. [(277, 'M'), (213, 'Q'), (53, 'V'), (259, 'C')]: ddG = -2.30659 kcal/mol
+    Average fitness of generation: 1.3966951300000001
+
+    Top 5 individuals from generation number 27:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'G')]: ddG = -3.3819199999999996 kcal/mol
+    3. [(277, 'M'), (213, 'K'), (53, 'V'), (259, 'C')]: ddG = -3.00651 kcal/mol
+    4. [(273, 'M'), (213, 'N'), (53, 'F'), (259, 'N')]: ddG = -2.9894700000000003 kcal/mol
+    5. [(277, 'R'), (213, 'Q'), (53, 'N'), (259, 'C')]: ddG = -2.958553333333333 kcal/mol
+    Average fitness of generation: 0.5987245462033458
+
+    Top 5 individuals from generation number 28:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(53, 'W'), (213, 'Q')]: ddG = -3.6655833333333336 kcal/mol
+    3. [(89, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -3.395156666666667 kcal/mol
+    4. [(273, 'A'), (213, 'Q'), (53, 'W'), (259, 'G')]: ddG = -2.39698 kcal/mol
+    5. [(80, 'I'), (53, 'W')]: ddG = -2.299583333333333 kcal/mol
+    Average fitness of generation: 1.2621812433333335
+
+    Top 5 individuals from generation number 29:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(89, 'M'), (213, 'K'), (53, 'W'), (259, 'C')]: ddG = -3.753933333333333 kcal/mol
+    3. [(213, 'Q'), (53, 'W')]: ddG = -3.6655833333333336 kcal/mol
+    4. [(273, 'M'), (53, 'W')]: ddG = -2.9750433333333333 kcal/mol
+    5. [(53, 'W'), (213, 'Q'), (66, 'S')]: ddG = -2.823303333333333 kcal/mol
+    Average fitness of generation: 1.178442311111111
+
+    Top 10 individuals:
+    1. [(273, 'M'), (213, 'Q'), (53, 'W'), (259, 'C')]: ddG = -5.430846666666667 kcal/mol
+    2. [(213, 'K'), (53, 'W')]: ddG = -4.27184 kcal/mol
+    3. [(53, 'W'), (213, 'D'), (9, 'Q')]: ddG = -3.0097133333333335 kcal/mol
+    4. [(53, 'W'), (213, 'D'), (138, 'F')]: ddG = -2.6644633333333334 kcal/mol
+    5. [(53, 'W')]: ddG = -2.299583333333333 kcal/mol
+    6. [(273, 'A'), (277, 'M'), (53, 'Y')]: ddG = -1.8258466666666664 kcal/mol
+    7. [(213, 'Q'), (53, 'W'), (149, 'Q')]: ddG = -1.6773566666666666 kcal/mol
+    8. [(53, 'W'), (259, 'G')]: ddG = -1.44257 kcal/mol
+    9. [(53, 'T'), (213, 'D'), (15, 'E'), (12, 'I')]: ddG = -1.14954 kcal/mol
+    10. [(273, 'Y'), (213, 'Q'), (141, 'I')]: ddG = -1.12491 kcal/mol
+
+    Max fitness over generations:
+    [-0.6658336666666667, -0.8550706666666666, -0.998812, -1.2465033333333333, -1.5139366666666667,
+     -1.5139366666666667, -1.54582, -1.54582, -2.3131633333333332, -4.3410400000000005, -5.430846666666667, 
+     -5.430846666666667, -5.430846666666667, -5.430846666666667, -5.430846666666667, -5.430846666666667, 
+     -5.430846666666667, -5.430846666666667, -5.430846666666667, -5.430846666666667, -5.430846666666667, 
+     -5.430846666666667, -5.430846666666667, -5.430846666666667, -5.430846666666667, -5.430846666666667, 
+     -5.430846666666667, -5.430846666666667, -5.430846666666667, -5.430846666666667, -5.430846666666667]
+
+4. RUN (PARALLEL)
+    Protein Code: A0A0K8P6T7
+    Restricted Sites: [87, 160, 161, 185, 206, 237]
+    Amino Acids: ACDEFGHIKLMNPQRSTVWY
+    Number of Individuals: 100
+    Number of Generations: 100
+    Wild-Type Sequence: MNFPRASRLMQAAVLGGLMAVSAAATAQTNPYARGPNPTAASLEASAGPFTVRSFTVSRPSGYGAGTVYYPTNAGGTVGAIAI
+    VPGYTARQSSIKWWGPRLASHGFVVITIDTNSTLDQPSSRSSQQMAALRQVASLNGTSSSPIYGKVDTARMGVMGWSMGGGGSLISAANNPSLKAAAPQAPWDS
+    STNFSSVTVPTLIFACENDSIAPVNSSALPIYDSMSRNAKQFLEINGGSHSCANSGNSNQALIGKKGVAWMKRFMDNDTRYSTFACENPNSTRVSDFRTANCS
+    Wild-Type Length: 290
+    Initial Population: [[(173, 'E')], [(257, 'F')], [(132, 'A')], [(245, 'R')], [(105, 'R')], [(31, 'L')], 
+    [(120, 'W')], [(244, 'W')], [(39, 'F')], [(34, 'C')], [(246, 'S')], [(243, 'H')], [(47, 'P')], [(135, 'M')], 
+    [(191, 'L')], [(208, 'S')], [(27, 'T')], [(175, 'Q')], [(202, 'N')], [(89, 'S')], [(238, 'N')], [(35, 'R')], 
+    [(162, 'V')], [(194, 'F')], [(27, 'E')], [(153, 'L')], [(67, 'H')], [(79, 'M')], [(32, 'N')], [(230, 'Q')], 
+    [(74, 'C')], [(216, 'E')], [(113, 'M')], [(93, 'L')], [(165, 'D')], [(262, 'Q')], [(126, 'D')], [(243, 'A')], 
+    [(71, 'H')], [(53, 'D')], [(17, 'M')], [(55, 'R')], [(266, 'N')], [(25, 'D')], [(225, 'C')], [(30, 'Y')], [(260, 'V')], 
+    [(178, 'N')], [(143, 'H')], [(87, 'M')], [(238, 'N')], [(260, 'N')], [(114, 'C')], [(81, 'Y')], [(94, 'D')], [(19, 'W')], 
+    [(243, 'E')], [(6, 'M')], [(188, 'M')], [(223, 'P')], [(194, 'N')], [(279, 'S')], [(257, 'Y')], [(165, 'H')], [(227, 'T')], 
+    [(262, 'Y')], [(156, 'G')], [(36, 'P')], [(192, 'Y')], [(24, 'N')], [(156, 'Q')], [(161, 'H')], [(94, 'H')], [(93, 'M')], 
+    [(114, 'F')], [(51, 'W')], [(219, 'R')], [(22, 'R')], [(148, 'I')], [(199, 'Q')], [(42, 'Y')], [(142, 'C')], [(75, 'C')], 
+    [(6, 'E')], [(70, 'R')], [(42, 'C')], [(217, 'Y')], [(96, 'M')], [(245, 'Y')], [(284, 'V')], [(45, 'P')], [(42, 'E')], [(213, 'C')], 
+    [(132, 'K')], [(97, 'Q')], [(94, 'Q')], [(247, 'H')], [(237, 'T')], [(285, 'I')], [(173, 'T')]]
+
+    Top 5 individuals from generation number 0:
+    1. [(194, 'N')]: ddG = -1.81548 kcal/mol
+    2. [(230, 'Q')]: ddG = -1.31224 kcal/mol
+    3. [(114, 'F')]: ddG = -1.16029 kcal/mol
+    4. [(45, 'P')]: ddG = -1.0721066666666665 kcal/mol
+    5. [(120, 'W')]: ddG = -1.0022953333333333 kcal/mol
+    Average fitness of generation: 2.9787337957333335
+
+    Top 5 individuals from generation number 1:
+    1. [(120, 'W'), (194, 'N')]: ddG = -2.7488566666666667 kcal/mol
+    2. [(194, 'N')]: ddG = -1.81548 kcal/mol
+    3. [(55, 'R'), (53, 'D')]: ddG = -1.7752733333333335 kcal/mol
+    4. [(194, 'N'), (150, 'Y')]: ddG = -1.72116 kcal/mol
+    5. [(230, 'Q'), (153, 'L')]: ddG = -1.7186466666666664 kcal/mol
+    Average fitness of generation: 2.1405953990233333
+
+    Top 5 individuals from generation number 2:
+    1. [(79, 'V'), (194, 'N')]: ddG = -3.29968 kcal/mol
+    2. [(230, 'Q'), (194, 'N')]: ddG = -3.1030533333333334 kcal/mol
+    3. [(230, 'Q'), (194, 'N')]: ddG = -3.1030533333333334 kcal/mol
+    4. [(120, 'W'), (194, 'N')]: ddG = -2.7488566666666667 kcal/mol
+    5. [(194, 'N'), (135, 'M')]: ddG = -2.412153333333333 kcal/mol
+    Average fitness of generation: 2.665021908666666
+
+    Top 5 individuals from generation number 3:
+    1. [(230, 'Q'), (194, 'N'), (206, 'M')]: ddG = -3.3786399999999994 kcal/mol
+    2. [(79, 'V'), (194, 'N')]: ddG = -3.29968 kcal/mol
+    3. [(79, 'V'), (194, 'N')]: ddG = -3.29968 kcal/mol
+    4. [(194, 'N'), (79, 'V')]: ddG = -3.29968 kcal/mol
+    5. [(230, 'Q'), (194, 'N')]: ddG = -3.1030533333333334 kcal/mol
+    Average fitness of generation: 1.5751588153333334
+
+    Top 5 individuals from generation number 4:
+    1. [(53, 'L'), (194, 'N')]: ddG = -3.3838266666666663 kcal/mol
+    2. [(230, 'Q'), (194, 'N'), (206, 'M')]: ddG = -3.3786399999999994 kcal/mol
+    3. [(79, 'V'), (194, 'N')]: ddG = -3.29968 kcal/mol
+    4. [(79, 'V'), (194, 'N')]: ddG = -3.29968 kcal/mol
+    5. [(194, 'N'), (79, 'V')]: ddG = -3.29968 kcal/mol
+    Average fitness of generation: 0.8048445122233333
+
+    Top 5 individuals from generation number 5:
+    1. [(194, 'N'), (79, 'V'), (151, 'R')]: ddG = -5.28569 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (55, 'R')]: ddG = -4.029533333333333 kcal/mol
+    3. [(79, 'V'), (194, 'N'), (12, 'N')]: ddG = -3.4433133333333337 kcal/mol
+    4. [(230, 'Q'), (194, 'N'), (206, 'M'), (219, 'H')]: ddG = -3.406603333333333 kcal/mol
+    5. [(53, 'L'), (194, 'N')]: ddG = -3.3838266666666663 kcal/mol
+    Average fitness of generation: 0.5972190557943333
+
+    Top 5 individuals from generation number 6:
+    1. [(194, 'N'), (79, 'V'), (151, 'R')]: ddG = -5.28569 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (55, 'R')]: ddG = -4.029533333333333 kcal/mol
+    3. [(230, 'Q'), (194, 'N'), (113, 'M')]: ddG = -3.9887199999999994 kcal/mol
+    4. [(53, 'L'), (194, 'N'), (141, 'E')]: ddG = -3.98291 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'I')]: ddG = -3.6690633333333333 kcal/mol
+    Average fitness of generation: 1.2987608557666668
+
+    Top 5 individuals from generation number 7:
+    1. [(194, 'N'), (79, 'V'), (151, 'R')]: ddG = -5.28569 kcal/mol
+    2. [(230, 'C'), (194, 'N'), (113, 'M')]: ddG = -4.73864 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (55, 'R'), (44, 'E')]: ddG = -4.27598 kcal/mol
+    4. [(277, 'N'), (79, 'V'), (151, 'R')]: ddG = -4.1809433333333335 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (55, 'R')]: ddG = -4.029533333333333 kcal/mol
+    Average fitness of generation: 0.28313561666666665
+
+    Top 5 individuals from generation number 8:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R')]: ddG = -5.28569 kcal/mol
+    3. [(230, 'C'), (194, 'N'), (113, 'M')]: ddG = -4.73864 kcal/mol
+    4. [(57, 'W'), (194, 'N'), (230, 'K')]: ddG = -4.600183333333334 kcal/mol
+    5. [(151, 'R'), (194, 'N'), (269, 'R')]: ddG = -4.39291 kcal/mol
+    Average fitness of generation: 0.05955244266666674
+
+    Top 5 individuals from generation number 9:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'R')]: ddG = -5.596636666666666 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R')]: ddG = -5.28569 kcal/mol
+    4. [(151, 'R'), (194, 'N'), (269, 'R'), (125, 'L')]: ddG = -4.9373000000000005 kcal/mol
+    5. [(230, 'R'), (194, 'R')]: ddG = -4.8557033333333335 kcal/mol
+    Average fitness of generation: 0.06661684366666655
+
+    Top 5 individuals from generation number 10:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'R')]: ddG = -5.596636666666666 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R')]: ddG = -5.28569 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (209, 'R')]: ddG = -5.254786666666667 kcal/mol
+    5. [(79, 'V'), (194, 'N'), (240, 'L'), (1, 'M')]: ddG = -4.96293 kcal/mol
+    Average fitness of generation: -0.4454532766666667
+
+    Top 5 individuals from generation number 11:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'R')]: ddG = -5.596636666666666 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R')]: ddG = -5.28569 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (209, 'R')]: ddG = -5.254786666666667 kcal/mol
+    5. [(277, 'N'), (79, 'V'), (151, 'R'), (206, 'P')]: ddG = -4.98188 kcal/mol
+    Average fitness of generation: -0.014075631600000006
+
+    Top 5 individuals from generation number 12:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'R')]: ddG = -5.596636666666666 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R')]: ddG = -5.28569 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R')]: ddG = -5.28569 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (209, 'R')]: ddG = -5.254786666666667 kcal/mol
+    Average fitness of generation: 0.3653202859999999
+
+    Top 5 individuals from generation number 13:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (269, 'M'), (274, 'F')]: ddG = -5.727633333333333 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'R')]: ddG = -5.596636666666666 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R')]: ddG = -5.28569 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R')]: ddG = -5.28569 kcal/mol
+    Average fitness of generation: -0.7965998262666667
+
+    Top 5 individuals from generation number 14:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (269, 'M'), (274, 'F')]: ddG = -5.727633333333333 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'R')]: ddG = -5.596636666666666 kcal/mol
+    4. [(151, 'R'), (194, 'L'), (269, 'M'), (274, 'F')]: ddG = -5.296836666666667 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R')]: ddG = -5.28569 kcal/mol
+    Average fitness of generation: -0.614137193
+
+    Top 5 individuals from generation number 15:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (269, 'M'), (274, 'F')]: ddG = -5.727633333333333 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (269, 'M'), (274, 'F')]: ddG = -5.727633333333333 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'R')]: ddG = -5.596636666666666 kcal/mol
+    5. [(151, 'R'), (194, 'L'), (269, 'M'), (274, 'F')]: ddG = -5.296836666666667 kcal/mol
+    Average fitness of generation: -0.544043357
+
+    Top 5 individuals from generation number 16:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'N')]: ddG = -5.813763333333333 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (269, 'M'), (274, 'F')]: ddG = -5.727633333333333 kcal/mol
+    4. [(151, 'R'), (194, 'N'), (269, 'M'), (274, 'F')]: ddG = -5.727633333333333 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'R')]: ddG = -5.596636666666666 kcal/mol
+    Average fitness of generation: 0.2333314138333334
+
+    Top 5 individuals from generation number 17:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'N')]: ddG = -5.813763333333333 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (269, 'P'), (274, 'F')]: ddG = -5.746683333333333 kcal/mol
+    4. [(151, 'R'), (194, 'N'), (269, 'M'), (274, 'F')]: ddG = -5.727633333333333 kcal/mol
+    5. [(151, 'R'), (194, 'N'), (269, 'M'), (274, 'F')]: ddG = -5.727633333333333 kcal/mol
+    Average fitness of generation: -1.3565319966666667
+
+    Top 5 individuals from generation number 18:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (50, 'P'), (274, 'F')]: ddG = -5.82609 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'N')]: ddG = -5.813763333333333 kcal/mol
+    4. [(151, 'R'), (194, 'N'), (269, 'P'), (274, 'F')]: ddG = -5.746683333333333 kcal/mol
+    5. [(151, 'R'), (194, 'N'), (269, 'M'), (274, 'F')]: ddG = -5.727633333333333 kcal/mol
+    Average fitness of generation: -1.51779371
+
+    Top 5 individuals from generation number 19:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (50, 'P'), (274, 'F')]: ddG = -5.82609 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'N')]: ddG = -5.813763333333333 kcal/mol
+    4. [(194, 'R'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -5.7670433333333335 kcal/mol
+    5. [(151, 'R'), (194, 'N'), (269, 'P'), (274, 'F')]: ddG = -5.746683333333333 kcal/mol
+    Average fitness of generation: -0.2672992640433333
+
+    Top 5 individuals from generation number 20:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (269, 'Y'), (274, 'F')]: ddG = -5.940553333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'C')]: ddG = -5.913933333333333 kcal/mol
+    4. [(151, 'R'), (194, 'N'), (50, 'P'), (274, 'F')]: ddG = -5.82609 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'N')]: ddG = -5.813763333333333 kcal/mol
+    Average fitness of generation: -0.6140622773333333
+
+    Top 5 individuals from generation number 21:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (269, 'Y'), (274, 'F')]: ddG = -5.940553333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'C')]: ddG = -5.913933333333333 kcal/mol
+    4. [(151, 'R'), (194, 'N'), (50, 'P'), (274, 'F')]: ddG = -5.82609 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'N')]: ddG = -5.813763333333333 kcal/mol
+    Average fitness of generation: -0.2988469928433333
+
+    Top 5 individuals from generation number 22:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (269, 'Y'), (274, 'F')]: ddG = -5.940553333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'C')]: ddG = -5.913933333333333 kcal/mol
+    4. [(151, 'R'), (194, 'N'), (50, 'P'), (274, 'F')]: ddG = -5.82609 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'N')]: ddG = -5.813763333333333 kcal/mol
+    Average fitness of generation: -0.5231984356666666
+
+    Top 5 individuals from generation number 23:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (269, 'Y'), (274, 'F')]: ddG = -5.940553333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'C')]: ddG = -5.913933333333333 kcal/mol
+    4. [(151, 'R'), (194, 'N'), (50, 'P'), (274, 'F')]: ddG = -5.82609 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'N')]: ddG = -5.813763333333333 kcal/mol
+    Average fitness of generation: -0.8305242060000001
+
+    Top 5 individuals from generation number 24:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'Y'), (274, 'F')]: ddG = -6.074843333333334 kcal/mol
+    3. [(151, 'R'), (123, 'M'), (214, 'P')]: ddG = -5.997923333333333 kcal/mol
+    4. [(151, 'R'), (194, 'N'), (269, 'Y'), (274, 'F')]: ddG = -5.940553333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'C')]: ddG = -5.913933333333333 kcal/mol
+    Average fitness of generation: -0.5432892792
+
+    Top 5 individuals from generation number 25:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'Y'), (274, 'F')]: ddG = -6.074843333333334 kcal/mol
+    3. [(151, 'R'), (123, 'M'), (214, 'P')]: ddG = -5.997923333333333 kcal/mol
+    4. [(151, 'R'), (194, 'N'), (269, 'Y'), (274, 'F')]: ddG = -5.940553333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'C')]: ddG = -5.913933333333333 kcal/mol
+    Average fitness of generation: -0.6632158048
+
+    Top 5 individuals from generation number 26:
+    1. [(151, 'R'), (123, 'M'), (214, 'P'), (36, 'Y')]: ddG = -6.573816666666667 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'Y'), (274, 'F')]: ddG = -6.074843333333334 kcal/mol
+    4. [(151, 'R'), (123, 'M'), (214, 'P')]: ddG = -5.997923333333333 kcal/mol
+    5. [(151, 'R'), (194, 'N'), (269, 'Y'), (274, 'F')]: ddG = -5.940553333333334 kcal/mol
+    Average fitness of generation: -0.27059785699999994
+
+    Top 5 individuals from generation number 27:
+    1. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.6082600000000005 kcal/mol
+    3. [(151, 'R'), (123, 'M'), (214, 'P'), (36, 'Y')]: ddG = -6.573816666666667 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    5. [(151, 'R'), (194, 'N'), (53, 'Y'), (274, 'F')]: ddG = -6.074843333333334 kcal/mol
+    Average fitness of generation: -0.2733512330000001
+
+    Top 5 individuals from generation number 28:
+    1. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.6082600000000005 kcal/mol
+    3. [(151, 'R'), (123, 'M'), (214, 'P'), (36, 'Y')]: ddG = -6.573816666666667 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    5. [(151, 'R'), (194, 'N'), (53, 'Y'), (274, 'F')]: ddG = -6.074843333333334 kcal/mol
+    Average fitness of generation: -0.9909465870000002
+
+    Top 5 individuals from generation number 29:
+    1. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.6082600000000005 kcal/mol
+    3. [(151, 'R'), (123, 'M'), (214, 'P'), (36, 'Y')]: ddG = -6.573816666666667 kcal/mol
+    4. [(151, 'R'), (123, 'M'), (214, 'P'), (39, 'E')]: ddG = -6.507813333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    Average fitness of generation: -0.9386813446333333
+
+    Top 5 individuals from generation number 30:
+    1. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.6082600000000005 kcal/mol
+    3. [(151, 'R'), (123, 'M'), (214, 'P'), (36, 'Y')]: ddG = -6.573816666666667 kcal/mol
+    4. [(151, 'R'), (123, 'M'), (214, 'P'), (39, 'E')]: ddG = -6.507813333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    Average fitness of generation: -0.8041358590000002
+
+    Top 5 individuals from generation number 31:
+    1. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.6082600000000005 kcal/mol
+    3. [(151, 'R'), (123, 'M'), (214, 'P'), (36, 'Y')]: ddG = -6.573816666666667 kcal/mol
+    4. [(151, 'R'), (123, 'M'), (214, 'P'), (39, 'E')]: ddG = -6.507813333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (2, 'S')]: ddG = -6.07892 kcal/mol
+    Average fitness of generation: 0.2398782304000001
+
+    Top 5 individuals from generation number 32:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.6082600000000005 kcal/mol
+    4. [(151, 'R'), (123, 'M'), (214, 'P'), (36, 'Y')]: ddG = -6.573816666666667 kcal/mol
+    5. [(151, 'R'), (123, 'M'), (214, 'P'), (39, 'E')]: ddG = -6.507813333333334 kcal/mol
+    Average fitness of generation: 0.3594789942999999
+
+    Top 5 individuals from generation number 33:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.6082600000000005 kcal/mol
+    4. [(151, 'R'), (123, 'M'), (214, 'P'), (36, 'Y')]: ddG = -6.573816666666667 kcal/mol
+    5. [(151, 'R'), (123, 'M'), (214, 'P'), (39, 'E')]: ddG = -6.507813333333334 kcal/mol
+    Average fitness of generation: 0.08681217999999996
+
+    Top 5 individuals from generation number 34:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.6082600000000005 kcal/mol
+    4. [(151, 'R'), (123, 'M'), (214, 'P'), (36, 'Y')]: ddG = -6.573816666666667 kcal/mol
+    5. [(151, 'R'), (123, 'M'), (214, 'P'), (39, 'E')]: ddG = -6.507813333333334 kcal/mol
+    Average fitness of generation: -0.3214245086666667
+
+    Top 5 individuals from generation number 35:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.6082600000000005 kcal/mol
+    4. [(151, 'R'), (123, 'M'), (214, 'P'), (36, 'Y')]: ddG = -6.573816666666667 kcal/mol
+    5. [(151, 'R'), (123, 'M'), (214, 'P'), (39, 'E')]: ddG = -6.507813333333334 kcal/mol
+    Average fitness of generation: -0.4077023613333333
+
+    Top 5 individuals from generation number 36:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.6082600000000005 kcal/mol
+    4. [(151, 'R'), (123, 'M'), (214, 'P'), (36, 'Y')]: ddG = -6.573816666666667 kcal/mol
+    5. [(151, 'R'), (123, 'M'), (214, 'P'), (39, 'E')]: ddG = -6.507813333333334 kcal/mol
+    Average fitness of generation: -0.9332511579999999
+
+    Top 5 individuals from generation number 37:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    4. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    5. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    Average fitness of generation: -1.2549327620000001
+
+    Top 5 individuals from generation number 38:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    4. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    5. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    Average fitness of generation: -0.7342831833333334
+
+    Top 5 individuals from generation number 39:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    4. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    5. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    Average fitness of generation: -0.9459660486666667
+
+    Top 5 individuals from generation number 40:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    4. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    5. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    Average fitness of generation: -0.29628143826666664
+
+    Top 5 individuals from generation number 41:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    4. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    5. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    Average fitness of generation: -0.4381812893333334
+
+    Top 5 individuals from generation number 42:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    4. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    5. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    Average fitness of generation: -0.36639717600000005
+
+    Top 5 individuals from generation number 43:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    4. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    5. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    Average fitness of generation: -0.347266951
+
+    Top 5 individuals from generation number 44:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    4. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    5. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    Average fitness of generation: -0.905378223
+
+    Top 5 individuals from generation number 45:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    5. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    Average fitness of generation: 0.23326831953333335
+
+    Top 5 individuals from generation number 46:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    5. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    Average fitness of generation: -0.306782003
+
+    Top 5 individuals from generation number 47:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    5. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    Average fitness of generation: -0.6880390173333333
+
+    Top 5 individuals from generation number 48:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    5. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    Average fitness of generation: 0.08865876399999997
+
+    Top 5 individuals from generation number 49:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    5. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    Average fitness of generation: -0.3448616493333334
+
+    Top 5 individuals from generation number 50:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    5. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    Average fitness of generation: -0.6519199586666666
+
+    Top 5 individuals from generation number 51:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    5. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    Average fitness of generation: -0.9302887556666667
+
+    Top 5 individuals from generation number 52:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    5. [(194, 'R'), (79, 'V'), (151, 'R'), (203, 'K')]: ddG = -6.640006666666667 kcal/mol
+    Average fitness of generation: -0.5822204550000001
+
+    Top 5 individuals from generation number 53:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    5. [(194, 'I'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -6.7048266666666665 kcal/mol
+    Average fitness of generation: -1.136070243
+
+    Top 5 individuals from generation number 54:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    5. [(194, 'I'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -6.7048266666666665 kcal/mol
+    Average fitness of generation: -1.3396231836666666
+
+    Top 5 individuals from generation number 55:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    5. [(194, 'I'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -6.7048266666666665 kcal/mol
+    Average fitness of generation: -1.1190433273333333
+
+    Top 5 individuals from generation number 56:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    5. [(194, 'I'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -6.7048266666666665 kcal/mol
+    Average fitness of generation: -0.6474656656666666
+
+    Top 5 individuals from generation number 57:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'L')]: ddG = -6.72998 kcal/mol
+    Average fitness of generation: -0.8893196456666667
+
+    Top 5 individuals from generation number 58:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (215, 'R')]: ddG = -7.026643333333333 kcal/mol
+    5. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    Average fitness of generation: -1.2475877486
+
+    Top 5 individuals from generation number 59:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (215, 'R')]: ddG = -7.026643333333333 kcal/mol
+    5. [(151, 'R'), (194, 'N'), (53, 'E'), (274, 'F')]: ddG = -6.984233333333333 kcal/mol
+    Average fitness of generation: -1.5020743746666667
+
+    Top 5 individuals from generation number 60:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (215, 'R')]: ddG = -7.026643333333333 kcal/mol
+    Average fitness of generation: -0.7973164823333333
+
+    Top 5 individuals from generation number 61:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (215, 'R')]: ddG = -7.026643333333333 kcal/mol
+    Average fitness of generation: -1.1645498433333334
+
+    Top 5 individuals from generation number 62:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (215, 'R')]: ddG = -7.026643333333333 kcal/mol
+    Average fitness of generation: -0.7972422986666666
+
+    Top 5 individuals from generation number 63:
+    1. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'L')]: ddG = -7.136643333333333 kcal/mol
+    Average fitness of generation: -0.5006444033333334
+
+    Top 5 individuals from generation number 64:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -1.2599621458633334
+
+    Top 5 individuals from generation number 65:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -0.7700242900000001
+
+    Top 5 individuals from generation number 66:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -1.1929366493333333
+
+    Top 5 individuals from generation number 67:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -1.0926034266666667
+
+    Top 5 individuals from generation number 68:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -0.48091019900000004
+
+    Top 5 individuals from generation number 69:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -0.24591965410000008
+
+    Top 5 individuals from generation number 70:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -0.9996383663333333
+
+    Top 5 individuals from generation number 71:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -1.1457855270000001
+
+    Top 5 individuals from generation number 72:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -1.1671555416666668
+
+    Top 5 individuals from generation number 73:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -1.3410311213333332
+
+    Top 5 individuals from generation number 74:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -2.5015591398
+
+    Top 5 individuals from generation number 75:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -1.723785489
+
+    Top 5 individuals from generation number 76:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -1.6568997503333334
+
+    Top 5 individuals from generation number 77:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    3. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -1.7041731680666665
+
+    Top 5 individuals from generation number 78:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -1.5766822779469585
+
+    Top 5 individuals from generation number 79:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -1.6851991140000002
+
+    Top 5 individuals from generation number 80:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    4. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -2.067560556666667
+
+    Top 5 individuals from generation number 81:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    4. [(151, 'R'), (194, 'N'), (53, 'W'), (103, 'F')]: ddG = -7.5989700000000004 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -0.7124042180000001
+
+    Top 5 individuals from generation number 82:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    4. [(151, 'R'), (194, 'N'), (53, 'W'), (103, 'F')]: ddG = -7.5989700000000004 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -1.3170219699999999
+
+    Top 5 individuals from generation number 83:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    4. [(151, 'R'), (194, 'N'), (53, 'W'), (103, 'F')]: ddG = -7.5989700000000004 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -1.728434297
+
+    Top 5 individuals from generation number 84:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    4. [(151, 'R'), (194, 'N'), (53, 'W'), (103, 'F')]: ddG = -7.5989700000000004 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -1.6994649849999999
+
+    Top 5 individuals from generation number 85:
+    1. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    2. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    4. [(151, 'R'), (194, 'N'), (53, 'W'), (103, 'F')]: ddG = -7.5989700000000004 kcal/mol
+    5. [(194, 'N'), (79, 'V'), (151, 'R'), (203, 'R')]: ddG = -7.534743333333334 kcal/mol
+    Average fitness of generation: -1.1568666090000002
+
+    Top 5 individuals from generation number 86:
+    1. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    2. [(151, 'R'), (194, 'R'), (53, 'W'), (103, 'F')]: ddG = -8.045226666666666 kcal/mol
+    3. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    4. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    5. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    Average fitness of generation: -1.1691944766666666
+
+    Top 5 individuals from generation number 87:
+    1. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    2. [(151, 'R'), (194, 'R'), (53, 'W'), (103, 'F')]: ddG = -8.045226666666666 kcal/mol
+    3. [(151, 'R'), (118, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.83147 kcal/mol
+    4. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    5. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    Average fitness of generation: -1.732325846333333
+
+    Top 5 individuals from generation number 88:
+    1. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    2. [(230, 'R'), (194, 'E'), (53, 'W'), (274, 'F')]: ddG = -8.273566666666667 kcal/mol
+    3. [(151, 'R'), (194, 'R'), (53, 'W'), (103, 'F')]: ddG = -8.045226666666666 kcal/mol
+    4. [(151, 'R'), (118, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.83147 kcal/mol
+    5. [(151, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -7.798066666666666 kcal/mol
+    Average fitness of generation: -1.5704654047333333
+
+    Top 5 individuals from generation number 89:
+    1. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    2. [(230, 'R'), (194, 'P'), (53, 'W'), (274, 'F')]: ddG = -9.085776666666668 kcal/mol
+    3. [(230, 'R'), (194, 'E'), (53, 'W'), (274, 'F')]: ddG = -8.273566666666667 kcal/mol
+    4. [(230, 'R'), (194, 'D'), (53, 'W'), (274, 'F')]: ddG = -8.152176666666668 kcal/mol
+    5. [(230, 'R'), (39, 'E'), (53, 'W'), (274, 'F')]: ddG = -8.127313333333333 kcal/mol
+    Average fitness of generation: -1.801140467
+
+    Top 5 individuals from generation number 90:
+    1. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    2. [(230, 'R'), (194, 'P'), (53, 'W'), (274, 'F')]: ddG = -9.085776666666668 kcal/mol
+    3. [(230, 'R'), (194, 'E'), (53, 'W'), (274, 'F')]: ddG = -8.273566666666667 kcal/mol
+    4. [(230, 'R'), (194, 'D'), (53, 'W'), (274, 'F')]: ddG = -8.152176666666668 kcal/mol
+    5. [(230, 'R'), (39, 'E'), (53, 'W'), (274, 'F')]: ddG = -8.127313333333333 kcal/mol
+    Average fitness of generation: -0.5466405166333334
+
+    Top 5 individuals from generation number 91:
+    1. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    2. [(230, 'R'), (194, 'P'), (53, 'W'), (274, 'F')]: ddG = -9.085776666666668 kcal/mol
+    3. [(230, 'R'), (194, 'M'), (53, 'W'), (274, 'F')]: ddG = -8.321583333333335 kcal/mol
+    4. [(230, 'R'), (194, 'E'), (53, 'W'), (274, 'F')]: ddG = -8.273566666666667 kcal/mol
+    5. [(230, 'R'), (194, 'D'), (53, 'W'), (274, 'F')]: ddG = -8.152176666666668 kcal/mol
+    Average fitness of generation: -1.3537118603333333
+
+    Top 5 individuals from generation number 92:
+    1. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    2. [(230, 'R'), (194, 'P'), (53, 'W'), (274, 'F')]: ddG = -9.085776666666668 kcal/mol
+    3. [(230, 'R'), (194, 'K'), (53, 'W'), (274, 'F')]: ddG = -8.46556 kcal/mol
+    4. [(230, 'R'), (194, 'M'), (53, 'W'), (274, 'F')]: ddG = -8.321583333333335 kcal/mol
+    5. [(230, 'R'), (194, 'M'), (53, 'W'), (274, 'F')]: ddG = -8.321583333333335 kcal/mol
+    Average fitness of generation: -1.1229223063333333
+
+    Top 5 individuals from generation number 93:
+    1. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    2. [(230, 'R'), (194, 'P'), (53, 'W'), (274, 'F')]: ddG = -9.085776666666668 kcal/mol
+    3. [(230, 'R'), (194, 'K'), (53, 'W'), (274, 'F')]: ddG = -8.46556 kcal/mol
+    4. [(230, 'R'), (194, 'M'), (53, 'W'), (274, 'F')]: ddG = -8.321583333333335 kcal/mol
+    5. [(230, 'R'), (194, 'M'), (53, 'W'), (274, 'F')]: ddG = -8.321583333333335 kcal/mol
+    Average fitness of generation: -1.6979990679333332
+
+    Top 5 individuals from generation number 94:
+    1. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    2. [(230, 'R'), (194, 'R'), (53, 'W'), (274, 'F')]: ddG = -9.124836666666667 kcal/mol
+    3. [(230, 'R'), (194, 'P'), (53, 'W'), (274, 'F')]: ddG = -9.085776666666668 kcal/mol
+    4. [(230, 'R'), (194, 'K'), (53, 'W'), (274, 'F')]: ddG = -8.46556 kcal/mol
+    5. [(230, 'R'), (194, 'M'), (53, 'W'), (274, 'F')]: ddG = -8.321583333333335 kcal/mol
+    Average fitness of generation: -1.822623288
+
+    Top 5 individuals from generation number 95:
+    1. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    2. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    3. [(230, 'R'), (194, 'R'), (53, 'W'), (274, 'F')]: ddG = -9.124836666666667 kcal/mol
+    4. [(230, 'R'), (194, 'P'), (53, 'W'), (274, 'F')]: ddG = -9.085776666666668 kcal/mol
+    5. [(230, 'R'), (194, 'K'), (53, 'W'), (274, 'F')]: ddG = -8.46556 kcal/mol
+    Average fitness of generation: -1.6540828213333334
+
+    Top 5 individuals from generation number 96:
+    1. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    2. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    3. [(230, 'R'), (194, 'R'), (53, 'W'), (274, 'F')]: ddG = -9.124836666666667 kcal/mol
+    4. [(230, 'R'), (194, 'P'), (53, 'W'), (274, 'F')]: ddG = -9.085776666666668 kcal/mol
+    5. [(230, 'R'), (194, 'N'), (53, 'L'), (274, 'F')]: ddG = -8.477336666666666 kcal/mol
+    Average fitness of generation: -1.4214942040333332
+
+    Top 5 individuals from generation number 97:
+    1. [(230, 'M'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.374516666666667 kcal/mol
+    2. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    3. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    4. [(230, 'R'), (194, 'R'), (53, 'W'), (274, 'F')]: ddG = -9.124836666666667 kcal/mol
+    5. [(230, 'R'), (194, 'P'), (53, 'W'), (274, 'F')]: ddG = -9.085776666666668 kcal/mol
+    Average fitness of generation: -1.819965851
+
+    Top 5 individuals from generation number 98:
+    1. [(230, 'M'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.374516666666667 kcal/mol
+    2. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    3. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    4. [(230, 'R'), (194, 'R'), (53, 'W'), (274, 'F')]: ddG = -9.124836666666667 kcal/mol
+    5. [(230, 'R'), (194, 'P'), (53, 'W'), (274, 'F')]: ddG = -9.085776666666668 kcal/mol
+    Average fitness of generation: -1.3410020946666665
+
+    Top 5 individuals from generation number 99:
+    1. [(230, 'M'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.374516666666667 kcal/mol
+    2. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    3. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    4. [(230, 'R'), (194, 'R'), (53, 'W'), (274, 'F')]: ddG = -9.124836666666667 kcal/mol
+    5. [(230, 'R'), (194, 'P'), (53, 'W'), (274, 'F')]: ddG = -9.085776666666668 kcal/mol
+    Average fitness of generation: -0.6034692779999999
+
+    Top 10 individuals:
+    1. [(230, 'M'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.374516666666667 kcal/mol
+    2. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    3. [(230, 'R'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -9.256616666666666 kcal/mol
+    4. [(230, 'R'), (194, 'R'), (53, 'W'), (274, 'F')]: ddG = -9.124836666666667 kcal/mol
+    5. [(230, 'R'), (194, 'P'), (53, 'W'), (274, 'F')]: ddG = -9.085776666666668 kcal/mol
+    6. [(230, 'K'), (194, 'N'), (53, 'W'), (274, 'F')]: ddG = -8.883426666666667 kcal/mol
+    7. [(230, 'M'), (194, 'N'), (53, 'F'), (274, 'F')]: ddG = -8.38974 kcal/mol
+    8. [(230, 'R'), (194, 'N'), (53, 'Q'), (274, 'F')]: ddG = -8.000436666666667 kcal/mol
+    9. [(230, 'M'), (194, 'N'), (53, 'N'), (274, 'F')]: ddG = -7.84857 kcal/mol
+    10. [(230, 'R'), (53, 'W'), (115, 'R')]: ddG = -7.713733333333333 kcal/mol
+
+    Max fitness over generations:
+    [-1.81548, -2.7488566666666667, -3.29968, -3.3786399999999994, -3.3838266666666663, -5.28569, 
+    -5.28569, -5.28569, -6.07892, -6.07892, -6.07892, -6.07892, -6.07892, -6.07892, -6.07892, -6.07892, 
+    -6.07892, -6.07892, -6.07892, -6.07892, -6.07892, -6.07892, -6.07892, -6.07892, -6.07892, -6.07892, 
+    -6.573816666666667, -6.984233333333333, -6.984233333333333, -6.984233333333333, -6.984233333333333, 
+    -6.984233333333333, -7.534743333333334, -7.534743333333334, -7.534743333333334, -7.534743333333334, 
+    -7.534743333333334, -7.534743333333334, -7.534743333333334, -7.534743333333334, -7.534743333333334, 
+    -7.534743333333334, -7.534743333333334, -7.534743333333334, -7.534743333333334, -7.534743333333334, 
+    -7.534743333333334, -7.534743333333334, -7.534743333333334, -7.534743333333334, -7.534743333333334, 
+    -7.534743333333334, -7.534743333333334, -7.534743333333334, -7.534743333333334, -7.534743333333334, 
+    -7.534743333333334, -7.534743333333334, -7.534743333333334, -7.534743333333334, -7.534743333333334, 
+    -7.534743333333334, -7.534743333333334, -7.534743333333334, -7.798066666666666, -7.798066666666666, 
+    -7.798066666666666, -7.798066666666666, -7.798066666666666, -7.798066666666666, -7.798066666666666, 
+    -7.798066666666666, -7.798066666666666, -7.798066666666666, -7.798066666666666, -7.798066666666666, 
+    -7.798066666666666, -7.798066666666666, -7.798066666666666, -7.798066666666666, -7.798066666666666, 
+    -7.798066666666666, -7.798066666666666, -7.798066666666666, -7.798066666666666, -7.798066666666666, 
+    -9.256616666666666, -9.256616666666666, -9.256616666666666, -9.256616666666666, -9.256616666666666, 
+    -9.256616666666666, -9.256616666666666, -9.256616666666666, -9.256616666666666, -9.256616666666666, 
+    -9.256616666666666, -9.374516666666667, -9.374516666666667, -9.374516666666667, -9.374516666666667]
+
+5. RUN (PARALLEL)
+    Protein Code: A0A0K8P6T7
+    Restricted Sites: [87, 160, 161, 185, 206, 237]
+    Amino Acids: ACDEFGHIKLMNPQRSTVWY
+    Number of Individuals: 50
+    Number of Generations: 50
+    Wild-Type Sequence: MNFPRASRLMQAAVLGGLMAVSAAATAQTNPYARGPNPTAASLEASAGPFTVRSFTVSRPSGYGAGTVYYPTNAGGTVGA
+    IAIVPGYTARQSSIKWWGPRLASHGFVVITIDTNSTLDQPSSRSSQQMAALRQVASLNGTSSSPIYGKVDTARMGVMGWSMGGGGSLISAANNPSLKAAAP
+    QAPWDSSTNFSSVTVPTLIFACENDSIAPVNSSALPIYDSMSRNAKQFLEINGGSHSCANSGNSNQALIGKKGVAWMKRFMDNDTRYSTFACENPNSTRVSDFRTANCS
+    Wild-Type Length: 290
+    Initial Population: [[(235, 'C')], [(104, 'Y')], [(119, 'M')], [(223, 'K')], [(167, 'E')], [(272, 'W')], 
+    [(28, 'M')], [(54, 'N')], [(50, 'L')], [(47, 'Q')], [(149, 'V')], [(68, 'K')], [(276, 'G')], [(72, 'W')], 
+    [(96, 'V')], [(227, 'T')], [(55, 'W')], [(214, 'T')], [(165, 'V')], [(167, 'F')], [(117, 'K')], [(263, 'C')], 
+    [(5, 'G')], [(167, 'W')], [(43, 'K')], [(196, 'V')], [(262, 'P')], [(196, 'F')], [(181, 'K')], [(229, 'C')], 
+    [(59, 'A')], [(204, 'A')], [(126, 'S')], [(257, 'T')], [(45, 'W')], [(83, 'I')], [(157, 'L')], [(65, 'H')], 
+    [(76, 'R')], [(51, 'C')], [(179, 'C')], [(281, 'L')], [(37, 'W')], [(23, 'Q')], [(209, 'E')], [(78, 'Y')], 
+    [(190, 'M')], [(249, 'K')], [(275, 'W')], [(163, 'R')]]
+
+    Top 5 individuals from generation number 0:
+    1. [(76, 'R')]: ddG = -1.0013210000000001 kcal/mol
+    2. [(55, 'W')]: ddG = -0.7800250000000001 kcal/mol
+    3. [(50, 'L')]: ddG = -0.5320113333333333 kcal/mol
+    4. [(45, 'W')]: ddG = -0.36011166666666666 kcal/mol
+    5. [(23, 'Q')]: ddG = -0.30565566666666666 kcal/mol
+    Average fitness of generation: 5.627862298486666
+
+    Top 5 individuals from generation number 1:
+    1. [(76, 'R')]: ddG = -1.0013210000000001 kcal/mol
+    2. [(76, 'R'), (72, 'W')]: ddG = -0.9525016666666667 kcal/mol
+    3. [(55, 'W')]: ddG = -0.7800250000000001 kcal/mol
+    4. [(223, 'K'), (50, 'L')]: ddG = -0.6799573333333333 kcal/mol
+    5. [(5, 'E')]: ddG = -0.4253656666666667 kcal/mol
+    Average fitness of generation: 3.642496456
+
+    Top 5 individuals from generation number 2:
+    1. [(76, 'R'), (150, 'P')]: ddG = -1.83984 kcal/mol
+    2. [(55, 'W'), (269, 'L')]: ddG = -1.1031633333333333 kcal/mol
+    3. [(76, 'R')]: ddG = -1.0013210000000001 kcal/mol
+    4. [(76, 'L')]: ddG = -0.9788556666666667 kcal/mol
+    5. [(76, 'R'), (72, 'W')]: ddG = -0.9525016666666667 kcal/mol
+    Average fitness of generation: 2.522760950066667
+
+    Top 5 individuals from generation number 3:
+    1. [(213, 'K'), (55, 'W')]: ddG = -2.7406966666666666 kcal/mol
+    2. [(76, 'R'), (150, 'P')]: ddG = -1.83984 kcal/mol
+    3. [(55, 'W'), (6, 'E'), (1, 'Q')]: ddG = -1.2963803333333332 kcal/mol
+    4. [(76, 'M'), (50, 'L')]: ddG = -1.28871 kcal/mol
+    5. [(45, 'W'), (55, 'W')]: ddG = -1.25973 kcal/mol
+    Average fitness of generation: 2.3808041793333334
+
+    Top 5 individuals from generation number 4:
+    1. [(213, 'K'), (55, 'W')]: ddG = -2.7406966666666666 kcal/mol
+    2. [(213, 'K'), (277, 'W')]: ddG = -2.593253333333333 kcal/mol
+    3. [(76, 'R'), (150, 'P'), (140, 'M')]: ddG = -2.38048 kcal/mol
+    4. [(45, 'W'), (55, 'W'), (109, 'I')]: ddG = -2.0449323333333336 kcal/mol
+    5. [(76, 'R'), (150, 'P')]: ddG = -1.83984 kcal/mol
+    Average fitness of generation: 0.8426567426666667
+
+    Top 5 individuals from generation number 5:
+    1. [(57, 'E'), (112, 'P')]: ddG = -4.649663333333334 kcal/mol
+    2. [(213, 'K'), (55, 'W')]: ddG = -2.7406966666666666 kcal/mol
+    3. [(213, 'K'), (277, 'W')]: ddG = -2.593253333333333 kcal/mol
+    4. [(150, 'D'), (213, 'K')]: ddG = -2.5003466666666667 kcal/mol
+    5. [(188, 'R'), (150, 'P'), (140, 'M')]: ddG = -2.3643533333333333 kcal/mol
+    Average fitness of generation: 0.7757943213333333
+
+    Top 5 individuals from generation number 6:
+    1. [(57, 'E'), (112, 'P')]: ddG = -4.649663333333334 kcal/mol
+    2. [(278, 'E'), (277, 'W')]: ddG = -2.828086666666666 kcal/mol
+    3. [(147, 'R'), (109, 'L')]: ddG = -2.7770333333333332 kcal/mol
+    4. [(213, 'K'), (55, 'W')]: ddG = -2.7406966666666666 kcal/mol
+    5. [(213, 'K'), (55, 'W')]: ddG = -2.7406966666666666 kcal/mol
+    Average fitness of generation: -0.4123930902666666
+
+    Top 5 individuals from generation number 7:
+    1. [(57, 'E'), (112, 'P')]: ddG = -4.649663333333334 kcal/mol
+    2. [(147, 'R'), (213, 'K')]: ddG = -3.5592633333333334 kcal/mol
+    3. [(278, 'E'), (277, 'W')]: ddG = -2.828086666666666 kcal/mol
+    4. [(213, 'L'), (55, 'W')]: ddG = -2.6248666666666667 kcal/mol
+    5. [(213, 'K'), (55, 'W'), (245, 'R')]: ddG = -2.5723 kcal/mol
+    Average fitness of generation: 0.7587055933333333
+
+    Top 5 individuals from generation number 8:
+    1. [(57, 'E'), (112, 'P')]: ddG = -4.649663333333334 kcal/mol
+    2. [(57, 'A'), (112, 'P')]: ddG = -4.100523333333334 kcal/mol
+    3. [(55, 'W'), (112, 'P')]: ddG = -4.076493333333333 kcal/mol
+    4. [(147, 'R'), (213, 'K')]: ddG = -3.5592633333333334 kcal/mol
+    5. [(68, 'W'), (147, 'R'), (174, 'N')]: ddG = -2.5252433333333335 kcal/mol
+    Average fitness of generation: 0.2159872772
+
+    Top 5 individuals from generation number 9:
+    1. [(278, 'E'), (112, 'P')]: ddG = -5.628586666666667 kcal/mol
+    2. [(57, 'E'), (112, 'P')]: ddG = -4.649663333333334 kcal/mol
+    3. [(55, 'Y'), (112, 'P')]: ddG = -4.212573333333333 kcal/mol
+    4. [(57, 'A'), (112, 'P')]: ddG = -4.100523333333334 kcal/mol
+    5. [(213, 'K'), (45, 'W'), (1, 'G'), (91, 'R')]: ddG = -3.0353933333333334 kcal/mol
+    Average fitness of generation: 0.7638905326666666
+
+    Top 5 individuals from generation number 10:
+    1. [(278, 'E'), (112, 'P')]: ddG = -5.628586666666667 kcal/mol
+    2. [(112, 'P'), (91, 'R')]: ddG = -5.048853333333334 kcal/mol
+    3. [(57, 'E'), (112, 'P')]: ddG = -4.649663333333334 kcal/mol
+    4. [(278, 'E'), (112, 'P'), (116, 'R')]: ddG = -3.928343333333333 kcal/mol
+    5. [(213, 'K'), (45, 'L'), (118, 'E')]: ddG = -3.491756666666667 kcal/mol
+    Average fitness of generation: 1.5694763933333333
+
+    Top 5 individuals from generation number 11:
+    1. [(278, 'E'), (112, 'P'), (39, 'R')]: ddG = -5.952516666666667 kcal/mol
+    2. [(278, 'E'), (112, 'P')]: ddG = -5.628586666666667 kcal/mol
+    3. [(112, 'P'), (91, 'R')]: ddG = -5.048853333333334 kcal/mol
+    4. [(278, 'E'), (112, 'P'), (273, 'F')]: ddG = -5.013466666666667 kcal/mol
+    5. [(45, 'W'), (112, 'P')]: ddG = -4.747033333333333 kcal/mol
+    Average fitness of generation: -0.0616996669333334
+
+    Top 5 individuals from generation number 12:
+    1. [(278, 'E'), (112, 'P'), (139, 'D')]: ddG = -6.008656666666667 kcal/mol
+    2. [(278, 'E'), (112, 'P'), (35, 'D')]: ddG = -6.006246666666667 kcal/mol
+    3. [(278, 'E'), (112, 'P'), (39, 'R')]: ddG = -5.952516666666667 kcal/mol
+    4. [(278, 'E'), (112, 'P')]: ddG = -5.628586666666667 kcal/mol
+    5. [(57, 'E'), (112, 'P')]: ddG = -4.649663333333334 kcal/mol
+    Average fitness of generation: -0.24323809600000004
+
+    Top 5 individuals from generation number 13:
+    1. [(278, 'E'), (112, 'P'), (139, 'D'), (150, 'Y')]: ddG = -6.3955366666666675 kcal/mol
+    2. [(278, 'E'), (112, 'P'), (139, 'D')]: ddG = -6.008656666666667 kcal/mol
+    3. [(278, 'E'), (112, 'P'), (35, 'D')]: ddG = -6.006246666666667 kcal/mol
+    4. [(112, 'P'), (213, 'K')]: ddG = -5.989070000000001 kcal/mol
+    5. [(39, 'R'), (112, 'P')]: ddG = -4.759526666666667 kcal/mol
+    Average fitness of generation: 0.751763468
+
+    Top 5 individuals from generation number 14:
+    1. [(278, 'E'), (112, 'P'), (139, 'D'), (150, 'Y')]: ddG = -6.3955366666666675 kcal/mol
+    2. [(278, 'E'), (112, 'P'), (139, 'D')]: ddG = -6.008656666666667 kcal/mol
+    3. [(112, 'P'), (213, 'K')]: ddG = -5.989070000000001 kcal/mol
+    4. [(112, 'P'), (147, 'R')]: ddG = -5.908816666666667 kcal/mol
+    5. [(112, 'P'), (278, 'E')]: ddG = -5.7140933333333335 kcal/mol
+    Average fitness of generation: -0.6145795380000001
+
+    Top 5 individuals from generation number 15:
+    1. [(112, 'P'), (213, 'K'), (115, 'K')]: ddG = -8.184396666666666 kcal/mol
+    2. [(278, 'E'), (112, 'P'), (139, 'D'), (150, 'Y')]: ddG = -6.3955366666666675 kcal/mol
+    3. [(278, 'E'), (112, 'P'), (139, 'D')]: ddG = -6.008656666666667 kcal/mol
+    4. [(251, 'W'), (112, 'P'), (285, 'K'), (53, 'R')]: ddG = -5.8388 kcal/mol
+    5. [(278, 'E'), (112, 'P')]: ddG = -5.628586666666667 kcal/mol
+    Average fitness of generation: 0.42148304933333336
+
+    Top 5 individuals from generation number 16:
+    1. [(112, 'P'), (213, 'K'), (115, 'K')]: ddG = -8.184396666666666 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (287, 'E')]: ddG = -7.8336033333333335 kcal/mol
+    3. [(278, 'E'), (112, 'P'), (139, 'D'), (150, 'Y')]: ddG = -6.3955366666666675 kcal/mol
+    4. [(147, 'R'), (112, 'P')]: ddG = -5.908816666666667 kcal/mol
+    5. [(278, 'E'), (112, 'P'), (114, 'C')]: ddG = -5.723913333333333 kcal/mol
+    Average fitness of generation: -0.5120266266666667
+
+    Top 5 individuals from generation number 17:
+    1. [(112, 'P'), (213, 'K'), (115, 'K'), (11, 'E')]: ddG = -8.73965 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K')]: ddG = -8.184396666666666 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'K'), (287, 'E')]: ddG = -7.8336033333333335 kcal/mol
+    4. [(147, 'R'), (112, 'P'), (135, 'Y')]: ddG = -6.649350000000001 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (115, 'K'), (116, 'E')]: ddG = -6.110053333333333 kcal/mol
+    Average fitness of generation: -1.61724694
+
+    Top 5 individuals from generation number 18:
+    1. [(112, 'P'), (213, 'K'), (115, 'K'), (11, 'E')]: ddG = -8.73965 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (11, 'I')]: ddG = -8.421076666666666 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'K')]: ddG = -8.184396666666666 kcal/mol
+    4. [(112, 'P'), (213, 'K'), (115, 'K'), (43, 'D')]: ddG = -7.308703333333333 kcal/mol
+    5. [(112, 'P'), (213, 'I'), (115, 'K'), (287, 'E')]: ddG = -6.386516666666666 kcal/mol
+    Average fitness of generation: -2.6186952076
+
+    Top 5 individuals from generation number 19:
+    1. [(112, 'P'), (213, 'K'), (115, 'K'), (11, 'E')]: ddG = -8.73965 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (11, 'I')]: ddG = -8.421076666666666 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'K'), (276, 'D')]: ddG = -7.449086666666667 kcal/mol
+    4. [(112, 'L'), (213, 'K'), (115, 'K'), (11, 'I')]: ddG = -6.79117 kcal/mol
+    5. [(112, 'P'), (113, 'K'), (115, 'K'), (11, 'E')]: ddG = -6.767806666666666 kcal/mol
+    Average fitness of generation: -1.37140738
+
+    Top 5 individuals from generation number 20:
+    1. [(112, 'P'), (213, 'K'), (115, 'K'), (11, 'E')]: ddG = -8.73965 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (11, 'I')]: ddG = -8.421076666666666 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'Y'), (11, 'I')]: ddG = -7.616876666666666 kcal/mol
+    4. [(112, 'L'), (213, 'K'), (115, 'K')]: ddG = -6.554483333333334 kcal/mol
+    5. [(112, 'P'), (113, 'K'), (213, 'K'), (11, 'E')]: ddG = -6.521486666666667 kcal/mol
+    Average fitness of generation: -1.0717736054666667
+
+    Top 5 individuals from generation number 21:
+    1. [(112, 'P'), (213, 'K'), (115, 'K'), (11, 'E')]: ddG = -8.73965 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (11, 'I')]: ddG = -8.421076666666666 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'K')]: ddG = -8.184396666666666 kcal/mol
+    4. [(112, 'P'), (113, 'I'), (213, 'K'), (11, 'E')]: ddG = -7.1297500000000005 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (115, 'C'), (276, 'H')]: ddG = -6.6478 kcal/mol
+    Average fitness of generation: -0.9970477306666669
+
+    Top 5 individuals from generation number 22:
+    1. [(112, 'P'), (213, 'K'), (115, 'K'), (11, 'E')]: ddG = -8.73965 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (11, 'I')]: ddG = -8.421076666666666 kcal/mol
+    3. [(112, 'P'), (113, 'I'), (213, 'L'), (11, 'E')]: ddG = -7.40972 kcal/mol
+    4. [(112, 'P'), (113, 'I'), (222, 'K'), (11, 'E')]: ddG = -5.890933333333333 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (121, 'N'), (151, 'W')]: ddG = -5.629543333333333 kcal/mol
+    Average fitness of generation: -0.9027096733333333
+
+    Top 5 individuals from generation number 23:
+    1. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (11, 'E')]: ddG = -8.73965 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'K'), (11, 'I')]: ddG = -8.421076666666666 kcal/mol
+    4. [(112, 'P'), (213, 'K'), (115, 'K')]: ddG = -8.184396666666666 kcal/mol
+    5. [(213, 'K'), (112, 'P')]: ddG = -5.989070000000001 kcal/mol
+    Average fitness of generation: -1.95375394
+
+    Top 5 individuals from generation number 24:
+    1. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (11, 'E')]: ddG = -8.73965 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'K'), (11, 'Q')]: ddG = -8.444036666666667 kcal/mol
+    4. [(112, 'P'), (213, 'K'), (115, 'K')]: ddG = -8.184396666666666 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (151, 'K'), (11, 'I')]: ddG = -6.463046666666666 kcal/mol
+    Average fitness of generation: -1.8072264213333333
+
+    Top 5 individuals from generation number 25:
+    1. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (11, 'E')]: ddG = -8.73965 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'K')]: ddG = -8.184396666666666 kcal/mol
+    4. [(112, 'P'), (258, 'K'), (115, 'K'), (11, 'Q')]: ddG = -6.69212 kcal/mol
+    5. [(213, 'K'), (112, 'P')]: ddG = -5.989070000000001 kcal/mol
+    Average fitness of generation: -1.6765872046666666
+
+    Top 5 individuals from generation number 26:
+    1. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'M')]: ddG = -9.09707 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'K'), (11, 'E')]: ddG = -8.73965 kcal/mol
+    4. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'A')]: ddG = -8.121906666666666 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (115, 'I'), (11, 'E')]: ddG = -8.043653333333333 kcal/mol
+    Average fitness of generation: -2.0687013373333336
+
+    Top 5 individuals from generation number 27:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'M')]: ddG = -9.09707 kcal/mol
+    4. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'I')]: ddG = -8.787936666666667 kcal/mol
+    5. [(112, 'P'), (176, 'K'), (115, 'K'), (76, 'E')]: ddG = -8.034413333333333 kcal/mol
+    Average fitness of generation: -2.719105432
+
+    Top 5 individuals from generation number 28:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'D'), (115, 'L'), (11, 'E')]: ddG = -7.400266666666667 kcal/mol
+    4. [(112, 'P'), (213, 'D'), (115, 'K'), (11, 'W')]: ddG = -6.543206666666666 kcal/mol
+    5. [(112, 'P'), (213, 'K')]: ddG = -5.989070000000001 kcal/mol
+    Average fitness of generation: -0.13664516333333332
+
+    Top 5 individuals from generation number 29:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (222, 'L'), (76, 'E')]: ddG = -7.840783333333334 kcal/mol
+    4. [(112, 'P'), (213, 'K')]: ddG = -5.989070000000001 kcal/mol
+    5. [(112, 'P'), (213, 'I'), (64, 'K'), (76, 'M')]: ddG = -5.351063333333333 kcal/mol
+    Average fitness of generation: -1.019616906
+
+    Top 5 individuals from generation number 30:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (92, 'E')]: ddG = -8.286763333333333 kcal/mol
+    4. [(112, 'A'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -7.708893333333333 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (22, 'L'), (76, 'E')]: ddG = -7.4593799999999995 kcal/mol
+    Average fitness of generation: -1.0799144806666667
+
+    Top 5 individuals from generation number 31:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (22, 'L'), (115, 'E')]: ddG = -8.695146666666666 kcal/mol
+    4. [(112, 'P'), (213, 'K'), (115, 'L')]: ddG = -8.493073333333333 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (115, 'H'), (76, 'E')]: ddG = -8.198156666666668 kcal/mol
+    Average fitness of generation: -2.100836596666667
+
+    Top 5 individuals from generation number 32:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'L')]: ddG = -8.493073333333333 kcal/mol
+    4. [(112, 'P'), (213, 'K'), (115, 'H'), (76, 'E')]: ddG = -8.198156666666668 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (115, 'L'), (111, 'M')]: ddG = -7.294686666666667 kcal/mol
+    Average fitness of generation: -1.867546375
+
+    Top 5 individuals from generation number 33:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'T'), (115, 'L'), (76, 'E')]: ddG = -7.56091 kcal/mol
+    4. [(112, 'C'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -7.38843 kcal/mol
+    5. [(112, 'P'), (210, 'K'), (115, 'K'), (76, 'E')]: ddG = -6.954663333333333 kcal/mol
+    Average fitness of generation: -2.5611932619999997
+
+    Top 5 individuals from generation number 34:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'I'), (115, 'K'), (76, 'E')]: ddG = -8.69946 kcal/mol
+    4. [(112, 'P'), (213, 'K'), (115, 'L')]: ddG = -8.493073333333333 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (115, 'L'), (192, 'E')]: ddG = -8.46228 kcal/mol
+    Average fitness of generation: -2.20224498
+
+    Top 5 individuals from generation number 35:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'L'), (274, 'L')]: ddG = -9.225196666666667 kcal/mol
+    4. [(112, 'P'), (213, 'K'), (115, 'L')]: ddG = -8.493073333333333 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (115, 'L')]: ddG = -8.493073333333333 kcal/mol
+    Average fitness of generation: -3.882510906666667
+
+    Top 5 individuals from generation number 36:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'D'), (76, 'E')]: ddG = -9.398083333333334 kcal/mol
+    4. [(112, 'P'), (213, 'K'), (115, 'A'), (192, 'E')]: ddG = -8.18299 kcal/mol
+    5. [(112, 'L'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -8.16859 kcal/mol
+    Average fitness of generation: -3.7366627799999996
+
+    Top 5 individuals from generation number 37:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'Y')]: ddG = -8.50311 kcal/mol
+    4. [(112, 'P'), (213, 'K'), (115, 'D'), (76, 'P')]: ddG = -8.301606666666666 kcal/mol
+    5. [(112, 'P'), (213, 'F'), (115, 'L'), (76, 'E')]: ddG = -8.026773333333333 kcal/mol
+    Average fitness of generation: -3.9874200259999997
+
+    Top 5 individuals from generation number 38:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'Y'), (76, 'E')]: ddG = -9.02321 kcal/mol
+    4. [(112, 'P'), (213, 'I'), (115, 'L'), (76, 'E')]: ddG = -8.84456 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (115, 'W'), (76, 'E')]: ddG = -8.39813 kcal/mol
+    Average fitness of generation: -2.91584836
+
+    Top 5 individuals from generation number 39:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'E'), (76, 'E')]: ddG = -9.680186666666666 kcal/mol
+    4. [(112, 'P'), (213, 'K'), (265, 'L'), (76, 'E')]: ddG = -8.42316 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (103, 'L'), (76, 'E')]: ddG = -8.101856666666666 kcal/mol
+    Average fitness of generation: -1.3681671293333333
+
+    Top 5 individuals from generation number 40:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'E')]: ddG = -8.958123333333335 kcal/mol
+    4. [(112, 'P'), (213, 'T'), (115, 'P'), (76, 'E')]: ddG = -8.500673333333333 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (115, 'L')]: ddG = -8.493073333333333 kcal/mol
+    Average fitness of generation: -2.465986701133333
+
+    Top 5 individuals from generation number 41:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'I')]: ddG = -9.008116666666666 kcal/mol
+    4. [(112, 'P'), (213, 'I'), (115, 'K'), (76, 'E')]: ddG = -8.69946 kcal/mol
+    5. [(112, 'P'), (213, 'L'), (115, 'K'), (76, 'H')]: ddG = -8.64374 kcal/mol
+    Average fitness of generation: -2.93981305
+
+    Top 5 individuals from generation number 42:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'R')]: ddG = -8.938126666666667 kcal/mol
+    4. [(112, 'L'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -8.553956666666666 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (115, 'K')]: ddG = -8.184396666666666 kcal/mol
+    Average fitness of generation: -3.3702974080000003
+
+    Top 5 individuals from generation number 43:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'F')]: ddG = -9.02194 kcal/mol
+    4. [(112, 'P'), (213, 'K'), (115, 'M'), (76, 'E')]: ddG = -8.566186666666667 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (115, 'R'), (76, 'I')]: ddG = -8.225406666666666 kcal/mol
+    Average fitness of generation: -3.832656072
+
+    Top 5 individuals from generation number 44:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'E'), (76, 'F')]: ddG = -8.885209999999999 kcal/mol
+    4. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'Y')]: ddG = -8.50311 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (115, 'K')]: ddG = -8.184396666666666 kcal/mol
+    Average fitness of generation: -3.324466872666667
+
+    Top 5 individuals from generation number 45:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'P'), (76, 'Y')]: ddG = -9.66738 kcal/mol
+    4. [(112, 'P'), (213, 'M'), (115, 'K'), (76, 'E')]: ddG = -9.414583333333333 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (115, 'E'), (76, 'G')]: ddG = -8.446636666666667 kcal/mol
+    Average fitness of generation: -3.7785434579999997
+
+    Top 5 individuals from generation number 46:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'K')]: ddG = -8.184396666666666 kcal/mol
+    4. [(112, 'P'), (134, 'K'), (115, 'E'), (76, 'Q')]: ddG = -7.906760000000001 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (244, 'K'), (76, 'E')]: ddG = -7.63929 kcal/mol
+    Average fitness of generation: -3.284811600666667
+
+    Top 5 individuals from generation number 47:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'K'), (237, 'E')]: ddG = -9.441416666666667 kcal/mol
+    4. [(112, 'P'), (213, 'K'), (115, 'Y'), (76, 'E')]: ddG = -9.02321 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'R')]: ddG = -8.632626666666667 kcal/mol
+    Average fitness of generation: -2.2406398899999997
+
+    Top 5 individuals from generation number 48:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'F'), (76, 'E')]: ddG = -9.609323333333334 kcal/mol
+    4. [(112, 'P'), (213, 'I'), (115, 'L'), (76, 'E')]: ddG = -8.84456 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (115, 'L'), (102, 'R')]: ddG = -6.968563333333333 kcal/mol
+    Average fitness of generation: -2.396494811333333
+
+    Top 5 individuals from generation number 49:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'L')]: ddG = -8.985273333333334 kcal/mol
+    4. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'A')]: ddG = -8.121906666666666 kcal/mol
+    5. [(112, 'P'), (213, 'K'), (115, 'L'), (102, 'G')]: ddG = -7.646 kcal/mol
+    Average fitness of generation: -2.845385706
+
+    Top 10 individuals:
+    1. [(112, 'P'), (213, 'K'), (115, 'L'), (76, 'E')]: ddG = -10.715546666666667 kcal/mol
+    2. [(112, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -10.3155 kcal/mol
+    3. [(112, 'P'), (286, 'K'), (115, 'L'), (76, 'E')]: ddG = -8.82855 kcal/mol
+    4. [(112, 'P'), (213, 'K'), (115, 'L')]: ddG = -8.493073333333333 kcal/mol
+    5. [(265, 'P'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -7.97098 kcal/mol
+    6. [(112, 'C'), (213, 'K'), (115, 'K'), (76, 'E')]: ddG = -7.96802 kcal/mol
+    7. [(112, 'V'), (213, 'K'), (115, 'E'), (76, 'E')]: ddG = -6.916810000000001 kcal/mol
+    8. [(115, 'E'), (76, 'E'), (20, 'Y'), (121, 'Y')]: ddG = -5.910403333333334 kcal/mol
+    9. [(112, 'P'), (23, 'M'), (274, 'I'), (211, 'W')]: ddG = -5.48764 kcal/mol
+    10. [(112, 'P'), (213, 'K'), (115, 'K'), (142, 'I')]: ddG = -5.452626666666667 kcal/mol
+
+    Max fitness over generations:
+    [-1.0013210000000001, -1.0013210000000001, -1.83984, -2.7406966666666666, -2.7406966666666666, 
+    -4.649663333333334, -4.649663333333334, -4.649663333333334, -4.649663333333334, -5.628586666666667, 
+    -5.628586666666667, -5.952516666666667, -6.008656666666667, -6.3955366666666675, -6.3955366666666675, 
+    -8.184396666666666, -8.184396666666666, -8.73965, -8.73965, -8.73965, -8.73965, -8.73965, -8.73965, 
+    -10.3155, -10.3155, -10.3155, -10.3155, -10.715546666666667, -10.715546666666667, -10.715546666666667, 
+    -10.715546666666667, -10.715546666666667, -10.715546666666667, -10.715546666666667, -10.715546666666667, 
+    -10.715546666666667, -10.715546666666667, -10.715546666666667, -10.715546666666667, -10.715546666666667, 
+    -10.715546666666667, -10.715546666666667, -10.715546666666667, -10.715546666666667, -10.715546666666667, 
+    -10.715546666666667, -10.715546666666667, -10.715546666666667, -10.715546666666667, -10.715546666666667, -10.715546666666667]
+
+6. RUN (PARALLEL)
+    Protein Code: A0A0K8P6T7
+    Restricted Sites: [87, 160, 161, 185, 206, 237]
+    Amino Acids: ACDEFGHIKLMNPQRSTVWY
+    Number of Individuals: 50
+    Number of Generations: 50
+    Wild-Type Sequence: MNFPRASRLMQAAVLGGLMAVSAAATAQTNPYARGPNPTAASLEASAGPFTVRSFTVSRPSGYGAGTVYYPTNAGGTVGAIAIVPGYTARQSSIKWWGPRLA
+    SHGFVVITIDTNSTLDQPSSRSSQQMAALRQVASLNGTSSSPIYGKVDTARMGVMGWSMGGGGSLISAANNPSLKAAAPQAPWDSSTNFSSVTVPTLIFACENDSIAPVNSSALPIYDSMSRN
+    AKQFLEINGGSHSCANSGNSNQALIGKKGVAWMKRFMDNDTRYSTFACENPNSTRVSDFRTANCS
+    Wild-Type Length: 290
+    Initial Population: [[(221, 'V')], [(36, 'S')], [(107, 'N')], [(94, 'Y')], [(136, 'G')], [(257, 'A')], [(183, 'V')], 
+    [(44, 'H')], [(262, 'P')], [(260, 'M')], [(285, 'H')], [(239, 'Y')], [(92, 'Y')], [(9, 'N')], [(153, 'Y')], [(85, 'C')], 
+    [(112, 'Y')], [(141, 'F')], [(212, 'T')], [(170, 'G')], [(154, 'A')], [(266, 'E')], [(146, 'D')], [(215, 'C')], [(101, 'S')], 
+    [(121, 'Q')], [(33, 'I')], [(55, 'K')], [(42, 'Q')], [(257, 'E')], [(42, 'S')], [(90, 'A')], [(172, 'D')], [(204, 'H')], 
+    [(15, 'T')], [(102, 'W')], [(29, 'G')], [(222, 'N')], [(200, 'K')], [(217, 'G')], [(87, 'F')], [(50, 'Y')], [(99, 'M')], 
+    [(149, 'H')], [(214, 'I')], [(53, 'L')], [(283, 'T')], [(128, 'V')], [(165, 'K')], [(32, 'G')]]
+
+    Top 5 individuals from generation number 0:
+    1. [(53, 'L')]: ddG = -1.6103166666666666 kcal/mol
+    2. [(92, 'Y')]: ddG = -0.909309 kcal/mol
+    3. [(99, 'M')]: ddG = -0.9053803333333333 kcal/mol
+    4. [(55, 'K')]: ddG = -0.7659889999999999 kcal/mol
+    5. [(9, 'N')]: ddG = -0.7088709999999999 kcal/mol
+    Average fitness of generation: 2.1787246777333333
+
+    Top 5 individuals from generation number 1:
+    1. [(153, 'Y'), (265, 'P')]: ddG = -2.16686 kcal/mol
+    2. [(92, 'Y'), (114, 'F')]: ddG = -2.1628866666666666 kcal/mol
+    3. [(53, 'L'), (87, 'F')]: ddG = -1.7511766666666666 kcal/mol
+    4. [(92, 'L')]: ddG = -1.61901 kcal/mol
+    5. [(53, 'L')]: ddG = -1.6103166666666666 kcal/mol
+    Average fitness of generation: 2.8537788194666667
+
+    Top 5 individuals from generation number 2:
+    1. [(153, 'Y'), (265, 'P')]: ddG = -2.16686 kcal/mol
+    2. [(92, 'Y'), (114, 'F')]: ddG = -2.1628866666666666 kcal/mol
+    3. [(153, 'Y'), (92, 'L')]: ddG = -1.7771133333333333 kcal/mol
+    4. [(99, 'M'), (92, 'Y')]: ddG = -1.5867733333333334 kcal/mol
+    5. [(222, 'P'), (92, 'Y')]: ddG = -1.39592 kcal/mol
+    Average fitness of generation: 3.0620833737333335
+
+    Top 5 individuals from generation number 3:
+    1. [(222, 'P'), (92, 'Y'), (114, 'Q')]: ddG = -2.6186333333333334 kcal/mol
+    2. [(153, 'Y'), (265, 'P')]: ddG = -2.16686 kcal/mol
+    3. [(92, 'Y'), (114, 'F')]: ddG = -2.1628866666666666 kcal/mol
+    4. [(114, 'F'), (99, 'M')]: ddG = -2.0764833333333335 kcal/mol
+    5. [(99, 'M'), (114, 'F')]: ddG = -2.0764833333333335 kcal/mol
+    Average fitness of generation: 2.339247353333333
+
+    Top 5 individuals from generation number 4:
+    1. [(222, 'P'), (92, 'Y'), (114, 'Q'), (20, 'D')]: ddG = -3.25619 kcal/mol
+    2. [(222, 'P'), (92, 'Y'), (114, 'Q')]: ddG = -2.6186333333333334 kcal/mol
+    3. [(92, 'L'), (153, 'F')]: ddG = -2.2461 kcal/mol
+    4. [(99, 'M'), (114, 'F'), (112, 'E')]: ddG = -2.230119333333333 kcal/mol
+    5. [(153, 'Y'), (265, 'P')]: ddG = -2.16686 kcal/mol
+    Average fitness of generation: 1.5341329101333332
+
+    Top 5 individuals from generation number 5:
+    1. [(222, 'P'), (92, 'Y'), (114, 'Q'), (20, 'D')]: ddG = -3.25619 kcal/mol
+    2. [(265, 'P'), (99, 'M')]: ddG = -2.9024366666666666 kcal/mol
+    3. [(222, 'P'), (92, 'Y'), (114, 'Q')]: ddG = -2.6186333333333334 kcal/mol
+    4. [(222, 'W'), (92, 'Y'), (114, 'Q')]: ddG = -2.3357666666666668 kcal/mol
+    5. [(92, 'L'), (153, 'W')]: ddG = -2.2096699999999996 kcal/mol
+    Average fitness of generation: 2.799425932666667
+
+    Top 5 individuals from generation number 6:
+    1. [(92, 'L'), (265, 'P')]: ddG = -3.59788 kcal/mol
+    2. [(222, 'P'), (92, 'Y'), (114, 'Q'), (20, 'D')]: ddG = -3.25619 kcal/mol
+    3. [(222, 'P'), (92, 'R'), (114, 'Q'), (20, 'D')]: ddG = -2.9150033333333334 kcal/mol
+    4. [(265, 'P'), (99, 'M')]: ddG = -2.9024366666666666 kcal/mol
+    5. [(222, 'P'), (92, 'K'), (114, 'Q')]: ddG = -2.6781666666666664 kcal/mol
+    Average fitness of generation: 0.9855662638666667
+
+    Top 5 individuals from generation number 7:
+    1. [(222, 'P'), (92, 'V'), (114, 'Q'), (20, 'D')]: ddG = -4.08186 kcal/mol
+    2. [(92, 'L'), (265, 'P')]: ddG = -3.59788 kcal/mol
+    3. [(222, 'P'), (92, 'Y'), (114, 'Q'), (20, 'D')]: ddG = -3.25619 kcal/mol
+    4. [(222, 'P'), (92, 'Y'), (114, 'Q'), (20, 'Y')]: ddG = -2.999926666666667 kcal/mol
+    5. [(265, 'P'), (92, 'Y')]: ddG = -2.915506666666667 kcal/mol
+    Average fitness of generation: 0.5841042446666667
+
+    Top 5 individuals from generation number 8:
+    1. [(222, 'P'), (92, 'V'), (114, 'Q'), (20, 'D')]: ddG = -4.08186 kcal/mol
+    2. [(92, 'L'), (265, 'P')]: ddG = -3.59788 kcal/mol
+    3. [(222, 'P'), (92, 'V'), (114, 'Q'), (262, 'D')]: ddG = -3.455773333333333 kcal/mol
+    4. [(265, 'P'), (92, 'K')]: ddG = -2.9243399999999995 kcal/mol
+    5. [(222, 'P'), (92, 'K'), (114, 'Q'), (55, 'V')]: ddG = -2.8021 kcal/mol
+    Average fitness of generation: -0.32998199666666667
+
+    Top 5 individuals from generation number 9:
+    1. [(115, 'P'), (92, 'V'), (114, 'Q'), (262, 'D')]: ddG = -5.568086666666666 kcal/mol
+    2. [(222, 'P'), (92, 'V'), (114, 'Q'), (20, 'D')]: ddG = -4.08186 kcal/mol
+    3. [(92, 'L'), (265, 'P')]: ddG = -3.59788 kcal/mol
+    4. [(222, 'H'), (92, 'V'), (114, 'Q'), (262, 'D')]: ddG = -3.01548 kcal/mol
+    5. [(245, 'L'), (92, 'E')]: ddG = -2.923996666666667 kcal/mol
+    Average fitness of generation: 0.0013774879333333589
+
+    Top 5 individuals from generation number 10:
+    1. [(115, 'P'), (92, 'V'), (114, 'Q'), (262, 'D')]: ddG = -5.568086666666666 kcal/mol
+    2. [(222, 'P'), (92, 'V'), (114, 'Q'), (20, 'D')]: ddG = -4.08186 kcal/mol
+    3. [(20, 'Y'), (265, 'P'), (246, 'E'), (76, 'A')]: ddG = -3.5853233333333336 kcal/mol
+    4. [(99, 'M'), (115, 'P')]: ddG = -3.4827366666666664 kcal/mol
+    5. [(222, 'P'), (92, 'V'), (114, 'Q')]: ddG = -3.4772200000000004 kcal/mol
+    Average fitness of generation: -0.1947293817333333
+
+    Top 5 individuals from generation number 11:
+    1. [(115, 'P'), (92, 'V'), (114, 'Q'), (262, 'D')]: ddG = -5.568086666666666 kcal/mol
+    2. [(222, 'P'), (92, 'V'), (114, 'Q'), (20, 'D')]: ddG = -4.08186 kcal/mol
+    3. [(20, 'E'), (265, 'P'), (246, 'E'), (76, 'A')]: ddG = -3.9507100000000004 kcal/mol
+    4. [(115, 'P'), (45, 'P')]: ddG = -3.6396333333333337 kcal/mol
+    5. [(245, 'L'), (92, 'E'), (15, 'Y'), (23, 'D')]: ddG = -3.5694766666666666 kcal/mol
+    Average fitness of generation: 0.13615664533333338
+
+    Top 5 individuals from generation number 12:
+    1. [(115, 'P'), (92, 'V'), (114, 'Q'), (262, 'D')]: ddG = -5.568086666666666 kcal/mol
+    2. [(115, 'F'), (92, 'V'), (114, 'Q'), (262, 'D')]: ddG = -4.17205 kcal/mol
+    3. [(222, 'P'), (92, 'V'), (114, 'Q'), (20, 'D')]: ddG = -4.08186 kcal/mol
+    4. [(115, 'P'), (45, 'P'), (16, 'S')]: ddG = -3.6482166666666664 kcal/mol
+    5. [(222, 'P'), (92, 'Y'), (114, 'Q'), (20, 'D')]: ddG = -3.25619 kcal/mol
+    Average fitness of generation: 1.2290728013133334
+
+    Top 5 individuals from generation number 13:
+    1. [(115, 'P'), (92, 'V'), (114, 'Q'), (262, 'D')]: ddG = -5.568086666666666 kcal/mol
+    2. [(245, 'L'), (92, 'E'), (91, 'P')]: ddG = -4.457726666666667 kcal/mol
+    3. [(115, 'F'), (92, 'V'), (114, 'I'), (262, 'D')]: ddG = -4.378596666666667 kcal/mol
+    4. [(115, 'F'), (92, 'V'), (114, 'Q'), (262, 'D')]: ddG = -4.17205 kcal/mol
+    5. [(115, 'A'), (92, 'V'), (114, 'Q'), (262, 'D')]: ddG = -3.842083333333333 kcal/mol
+    Average fitness of generation: -0.08127283333333324
+
+    Top 5 individuals from generation number 14:
+    1. [(115, 'P'), (92, 'V'), (114, 'Q'), (262, 'D')]: ddG = -5.568086666666666 kcal/mol
+    2. [(115, 'P'), (91, 'P')]: ddG = -5.004356666666667 kcal/mol
+    3. [(245, 'L'), (92, 'E'), (91, 'P'), (186, 'Q')]: ddG = -4.578256666666667 kcal/mol
+    4. [(245, 'L'), (92, 'E'), (91, 'P')]: ddG = -4.457726666666667 kcal/mol
+    5. [(115, 'P'), (92, 'V'), (204, 'Q'), (262, 'D')]: ddG = -4.42067 kcal/mol
+    Average fitness of generation: -1.1236373246666667
+
+    Top 5 individuals from generation number 15:
+    1. [(115, 'P'), (92, 'V'), (114, 'Q'), (262, 'D')]: ddG = -5.568086666666666 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'N')]: ddG = -5.566373333333334 kcal/mol
+    3. [(245, 'L'), (92, 'E'), (91, 'P'), (265, 'F')]: ddG = -5.258126666666667 kcal/mol
+    4. [(115, 'P'), (91, 'P')]: ddG = -5.004356666666667 kcal/mol
+    5. [(115, 'P'), (92, 'V')]: ddG = -4.2837233333333335 kcal/mol
+    Average fitness of generation: -1.0633519753333334
+
+    Top 5 individuals from generation number 16:
+    1. [(115, 'P'), (91, 'P'), (265, 'F')]: ddG = -5.916966666666667 kcal/mol
+    2. [(115, 'P'), (92, 'V'), (114, 'Q'), (262, 'D')]: ddG = -5.568086666666666 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'N')]: ddG = -5.566373333333334 kcal/mol
+    4. [(115, 'P'), (91, 'P')]: ddG = -5.004356666666667 kcal/mol
+    5. [(92, 'V'), (115, 'P')]: ddG = -4.285053333333333 kcal/mol
+    Average fitness of generation: 0.09042778586666661
+
+    Top 5 individuals from generation number 17:
+    1. [(115, 'P'), (91, 'P'), (265, 'F')]: ddG = -5.916966666666667 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'N'), (20, 'S')]: ddG = -5.6963 kcal/mol
+    3. [(115, 'P'), (92, 'V'), (114, 'Q'), (262, 'D')]: ddG = -5.568086666666666 kcal/mol
+    4. [(115, 'E'), (91, 'P'), (265, 'F')]: ddG = -4.971723333333333 kcal/mol
+    5. [(115, 'P'), (60, 'V'), (114, 'Q'), (262, 'D')]: ddG = -4.167373333333333 kcal/mol
+    Average fitness of generation: -0.4901361488385173
+
+    Top 5 individuals from generation number 18:
+    1. [(115, 'P'), (91, 'P'), (265, 'F')]: ddG = -5.916966666666667 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'F')]: ddG = -5.916966666666667 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'F'), (64, 'M')]: ddG = -5.725796666666667 kcal/mol
+    4. [(115, 'P'), (91, 'P'), (265, 'N'), (20, 'S')]: ddG = -5.6963 kcal/mol
+    5. [(115, 'E'), (91, 'P'), (265, 'F'), (286, 'Q')]: ddG = -5.49026 kcal/mol
+    Average fitness of generation: -1.6216016866666667
+
+    Top 5 individuals from generation number 19:
+    1. [(115, 'P'), (91, 'P'), (265, 'E'), (64, 'M')]: ddG = -6.476873333333334 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'N'), (20, 'Y')]: ddG = -6.02204 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'N'), (20, 'L')]: ddG = -5.93527 kcal/mol
+    4. [(115, 'P'), (91, 'P'), (265, 'F')]: ddG = -5.916966666666667 kcal/mol
+    5. [(115, 'P'), (91, 'P'), (265, 'F')]: ddG = -5.916966666666667 kcal/mol
+    Average fitness of generation: -2.1349162333333336
+
+    Top 5 individuals from generation number 20:
+    1. [(115, 'P'), (91, 'P'), (265, 'E'), (64, 'M')]: ddG = -6.476873333333334 kcal/mol
+    2. [(115, 'P'), (92, 'V'), (114, 'Q'), (269, 'D')]: ddG = -6.068503333333333 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'N'), (20, 'Y')]: ddG = -6.02204 kcal/mol
+    4. [(115, 'P'), (91, 'P'), (265, 'Q')]: ddG = -5.950596666666667 kcal/mol
+    5. [(115, 'P'), (91, 'P'), (265, 'F'), (1, 'V')]: ddG = -5.92443 kcal/mol
+    Average fitness of generation: -2.181085106666667
+
+    Top 5 individuals from generation number 21:
+    1. [(115, 'P'), (91, 'P'), (265, 'P')]: ddG = -6.940533333333334 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'E'), (64, 'M')]: ddG = -6.476873333333334 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'Q'), (197, 'I')]: ddG = -6.41694 kcal/mol
+    4. [(115, 'P'), (91, 'P'), (265, 'F'), (1, 'D')]: ddG = -6.3376133333333335 kcal/mol
+    5. [(115, 'P'), (91, 'P'), (265, 'F'), (1, 'L')]: ddG = -6.24025 kcal/mol
+    Average fitness of generation: -1.64257172
+
+    Top 5 individuals from generation number 22:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (210, 'I')]: ddG = -7.005390000000001 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'P')]: ddG = -6.940533333333334 kcal/mol
+    4. [(115, 'P'), (91, 'P'), (265, 'E'), (64, 'M')]: ddG = -6.476873333333334 kcal/mol
+    5. [(115, 'P'), (92, 'V'), (114, 'Q'), (139, 'D')]: ddG = -6.22886 kcal/mol
+    Average fitness of generation: -0.8900826884666667
+
+    Top 5 individuals from generation number 23:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (210, 'I')]: ddG = -7.005390000000001 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'P')]: ddG = -6.940533333333334 kcal/mol
+    4. [(115, 'P'), (92, 'V'), (114, 'Q'), (139, 'D')]: ddG = -6.22886 kcal/mol
+    5. [(115, 'P'), (91, 'P'), (119, 'P'), (286, 'Q')]: ddG = -5.607253333333333 kcal/mol
+    Average fitness of generation: -1.5531058754
+
+    Top 5 individuals from generation number 24:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (210, 'I')]: ddG = -7.005390000000001 kcal/mol
+    3. [(115, 'K'), (91, 'P'), (265, 'P')]: ddG = -6.213416666666667 kcal/mol
+    4. [(115, 'P'), (45, 'P'), (265, 'P'), (286, 'Q')]: ddG = -6.152393333333333 kcal/mol
+    5. [(115, 'P'), (92, 'D'), (114, 'H'), (0, 'E')]: ddG = -5.125773333333334 kcal/mol
+    Average fitness of generation: -2.2670619992
+
+    Top 5 individuals from generation number 25:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (210, 'I')]: ddG = -7.005390000000001 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'P')]: ddG = -6.940533333333334 kcal/mol
+    4. [(115, 'P'), (92, 'F'), (114, 'H'), (0, 'E')]: ddG = -5.06095 kcal/mol
+    5. [(115, 'P'), (92, 'H'), (114, 'Q'), (148, 'I')]: ddG = -5.000766666666666 kcal/mol
+    Average fitness of generation: -1.3590017367333334
+
+    Top 5 individuals from generation number 26:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (210, 'I')]: ddG = -7.005390000000001 kcal/mol
+    3. [(91, 'P'), (265, 'P'), (135, 'I')]: ddG = -4.73619 kcal/mol
+    4. [(91, 'P'), (115, 'P')]: ddG = -4.58657 kcal/mol
+    5. [(91, 'P'), (115, 'P')]: ddG = -4.58657 kcal/mol
+    Average fitness of generation: -1.5314300774
+
+    Top 5 individuals from generation number 27:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (210, 'I')]: ddG = -7.005390000000001 kcal/mol
+    3. [(115, 'P'), (92, 'H'), (114, 'I'), (126, 'M')]: ddG = -6.39789 kcal/mol
+    4. [(115, 'I'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -6.2575433333333335 kcal/mol
+    5. [(91, 'P'), (115, 'P'), (150, 'R')]: ddG = -5.101063333333333 kcal/mol
+    Average fitness of generation: -1.4496858146666667
+
+    Top 5 individuals from generation number 28:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (210, 'I')]: ddG = -7.005390000000001 kcal/mol
+    3. [(115, 'P'), (92, 'R'), (114, 'I'), (126, 'M')]: ddG = -6.48094 kcal/mol
+    4. [(115, 'P'), (91, 'P'), (265, 'Q'), (286, 'Q')]: ddG = -6.3245499999999995 kcal/mol
+    5. [(115, 'P'), (91, 'P'), (265, 'R'), (210, 'I')]: ddG = -5.860756666666667 kcal/mol
+    Average fitness of generation: -0.5851691133333334
+
+    Top 5 individuals from generation number 29:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (210, 'I')]: ddG = -7.005390000000001 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'Q')]: ddG = -5.950596666666667 kcal/mol
+    4. [(115, 'P'), (91, 'P'), (246, 'M')]: ddG = -5.514013333333334 kcal/mol
+    5. [(115, 'P'), (91, 'P')]: ddG = -5.004356666666667 kcal/mol
+    Average fitness of generation: -0.6455460686666669
+
+    Top 5 individuals from generation number 30:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'P'), (210, 'I')]: ddG = -7.005390000000001 kcal/mol
+    4. [(115, 'P'), (91, 'P'), (265, 'Q'), (9, 'K')]: ddG = -6.384613333333334 kcal/mol
+    5. [(115, 'P'), (91, 'P'), (265, 'A'), (286, 'Q')]: ddG = -6.071556666666667 kcal/mol
+    Average fitness of generation: 0.5855752419999999
+
+    Top 5 individuals from generation number 31:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    3. [(115, 'P'), (121, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.000543333333333 kcal/mol
+    4. [(115, 'P'), (91, 'Y'), (265, 'P'), (286, 'Q')]: ddG = -6.453753333333334 kcal/mol
+    5. [(115, 'P'), (91, 'P'), (265, 'L'), (286, 'Q')]: ddG = -6.270309999999999 kcal/mol
+    Average fitness of generation: -0.5863102346666667
+
+    Top 5 individuals from generation number 32:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    3. [(115, 'P'), (91, 'M'), (265, 'P'), (106, 'I')]: ddG = -6.09738 kcal/mol
+    4. [(115, 'P'), (121, 'P'), (265, 'P')]: ddG = -6.090033333333333 kcal/mol
+    5. [(115, 'P'), (121, 'I'), (265, 'P'), (106, 'I')]: ddG = -5.786573333333333 kcal/mol
+    Average fitness of generation: -2.1952235946666665
+
+    Top 5 individuals from generation number 33:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    3. [(115, 'P'), (91, 'R'), (265, 'P'), (286, 'Q')]: ddG = -5.896123333333333 kcal/mol
+    4. [(115, 'P'), (91, 'P'), (128, 'L')]: ddG = -5.21712 kcal/mol
+    5. [(265, 'P'), (91, 'P'), (203, 'Y'), (58, 'K')]: ddG = -5.205736666666667 kcal/mol
+    Average fitness of generation: -1.1537875833333333
+
+    Top 5 individuals from generation number 34:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    3. [(115, 'I'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -6.2575433333333335 kcal/mol
+    4. [(115, 'P'), (91, 'P'), (265, 'H'), (286, 'Q')]: ddG = -5.997626666666666 kcal/mol
+    5. [(115, 'P'), (237, 'P'), (265, 'P'), (286, 'Q')]: ddG = -5.8134966666666665 kcal/mol
+    Average fitness of generation: -1.9025923753333334
+
+    Top 5 individuals from generation number 35:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    3. [(265, 'P'), (91, 'P'), (115, 'R')]: ddG = -6.44529 kcal/mol
+    4. [(115, 'P'), (237, 'M'), (265, 'P'), (286, 'Q')]: ddG = -5.832956666666667 kcal/mol
+    5. [(115, 'P'), (141, 'N'), (265, 'P'), (106, 'I')]: ddG = -5.5358833333333335 kcal/mol
+    Average fitness of generation: -1.6202856333333333
+
+    Top 5 individuals from generation number 36:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'P'), (244, 'Q')]: ddG = -7.4314366666666665 kcal/mol
+    4. [(115, 'P'), (91, 'P'), (265, 'P')]: ddG = -6.940533333333334 kcal/mol
+    5. [(115, 'P'), (91, 'P'), (265, 'N'), (286, 'V')]: ddG = -5.539063333333334 kcal/mol
+    Average fitness of generation: -1.764794512
+
+    Top 5 individuals from generation number 37:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'I')]: ddG = -7.043866666666666 kcal/mol
+    4. [(115, 'P'), (91, 'P'), (265, 'M'), (106, 'I')]: ddG = -6.66938 kcal/mol
+    5. [(115, 'P'), (91, 'P'), (274, 'Q'), (247, 'Y')]: ddG = -5.880723333333333 kcal/mol
+    Average fitness of generation: -1.5851548466666667
+
+    Top 5 individuals from generation number 38:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'A'), (286, 'Q')]: ddG = -6.071556666666667 kcal/mol
+    4. [(115, 'P'), (91, 'P'), (126, 'Q'), (247, 'Y')]: ddG = -5.685763333333334 kcal/mol
+    5. [(115, 'I'), (91, 'P'), (265, 'M'), (106, 'I')]: ddG = -5.473883333333333 kcal/mol
+    Average fitness of generation: -1.4676152644666667
+
+    Top 5 individuals from generation number 39:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Y')]: ddG = -6.962703333333334 kcal/mol
+    4. [(115, 'R'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -6.84795 kcal/mol
+    5. [(115, 'P'), (91, 'P'), (265, 'R'), (106, 'I')]: ddG = -6.671753333333332 kcal/mol
+    Average fitness of generation: -2.346199879333333
+
+    Top 5 individuals from generation number 40:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'H')]: ddG = -7.1430333333333325 kcal/mol
+    4. [(115, 'P'), (91, 'P'), (265, 'P')]: ddG = -6.940533333333334 kcal/mol
+    5. [(115, 'R'), (91, 'P'), (265, 'P'), (286, 'W')]: ddG = -6.78639 kcal/mol
+    Average fitness of generation: -2.710208498
+
+    Top 5 individuals from generation number 41:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    4. [(115, 'P'), (91, 'P'), (265, 'P')]: ddG = -6.940533333333334 kcal/mol
+    5. [(265, 'P'), (91, 'P'), (230, 'C'), (124, 'Y')]: ddG = -6.212996666666666 kcal/mol
+    Average fitness of generation: -1.9978977733333334
+
+    Top 5 individuals from generation number 42:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'K')]: ddG = -7.829136666666667 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'Q')]: ddG = -7.4494 kcal/mol
+    4. [(115, 'P'), (91, 'P'), (265, 'P')]: ddG = -6.940533333333334 kcal/mol
+    5. [(115, 'M'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -6.437586666666667 kcal/mol
+    Average fitness of generation: -2.4328023400000003
+
+    Top 5 individuals from generation number 43:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'K')]: ddG = -7.829136666666667 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (230, 'C'), (286, 'Q')]: ddG = -7.33568 kcal/mol
+    4. [(115, 'P'), (91, 'P'), (265, 'P'), (244, 'A')]: ddG = -6.78704 kcal/mol
+    5. [(91, 'P'), (115, 'R'), (126, 'M')]: ddG = -5.65848 kcal/mol
+    Average fitness of generation: -2.621240562666667
+
+    Top 5 individuals from generation number 44:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'K')]: ddG = -7.829136666666667 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    3. [(115, 'H'), (91, 'P'), (265, 'P'), (286, 'K')]: ddG = -5.938406666666666 kcal/mol
+    4. [(5, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -5.372303333333334 kcal/mol
+    5. [(115, 'P'), (91, 'P'), (124, 'G'), (188, 'Y')]: ddG = -5.226723333333333 kcal/mol
+    Average fitness of generation: -2.422590121333333
+
+    Top 5 individuals from generation number 45:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'K')]: ddG = -7.829136666666667 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'P'), (174, 'K')]: ddG = -7.358023333333333 kcal/mol
+    4. [(115, 'A'), (91, 'P'), (265, 'P'), (286, 'K')]: ddG = -6.4544999999999995 kcal/mol
+    5. [(5, 'P'), (91, 'P'), (115, 'P'), (106, 'I')]: ddG = -6.118716666666667 kcal/mol
+    Average fitness of generation: -1.8013940266666666
+
+    Top 5 individuals from generation number 46:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'K')]: ddG = -7.829136666666667 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    3. [(115, 'P'), (91, 'R'), (265, 'P'), (106, 'I')]: ddG = -6.32992 kcal/mol
+    4. [(115, 'P'), (91, 'P'), (109, 'P'), (106, 'I')]: ddG = -6.003803333333333 kcal/mol
+    5. [(188, 'F'), (115, 'P'), (230, 'K'), (1, 'Y')]: ddG = -5.814049999999999 kcal/mol
+    Average fitness of generation: -2.0336312530666665
+
+    Top 5 individuals from generation number 47:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'K')]: ddG = -7.829136666666667 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    3. [(115, 'E'), (91, 'P'), (265, 'A')]: ddG = -4.626806666666667 kcal/mol
+    4. [(91, 'P'), (115, 'P')]: ddG = -4.58657 kcal/mol
+    5. [(91, 'M'), (115, 'R'), (126, 'M'), (207, 'R')]: ddG = -4.25694 kcal/mol
+    Average fitness of generation: -1.657635411
+
+    Top 5 individuals from generation number 48:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'K')]: ddG = -7.829136666666667 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    3. [(115, 'P'), (91, 'P')]: ddG = -5.004356666666667 kcal/mol
+    4. [(265, 'P'), (115, 'P')]: ddG = -4.570403333333333 kcal/mol
+    5. [(91, 'Q'), (115, 'R'), (126, 'M'), (207, 'R')]: ddG = -4.486346666666667 kcal/mol
+    Average fitness of generation: -1.07640464
+
+    Top 5 individuals from generation number 49:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'K')]: ddG = -7.829136666666667 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'F'), (286, 'K')]: ddG = -6.90702 kcal/mol
+    4. [(115, 'P'), (91, 'W'), (265, 'P'), (286, 'K')]: ddG = -6.282216666666667 kcal/mol
+    5. [(115, 'P'), (91, 'P')]: ddG = -5.004356666666667 kcal/mol
+    Average fitness of generation: -1.233260934
+
+    Top 10 individuals:
+    1. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'K')]: ddG = -7.829136666666667 kcal/mol
+    2. [(115, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -7.73032 kcal/mol
+    3. [(115, 'P'), (91, 'P'), (265, 'P'), (286, 'G')]: ddG = -6.540593333333334 kcal/mol
+    4. [(115, 'P'), (91, 'Q'), (265, 'P'), (286, 'K')]: ddG = -6.4477 kcal/mol
+    5. [(115, 'P'), (91, 'V'), (265, 'P'), (106, 'I')]: ddG = -6.1478600000000005 kcal/mol
+    6. [(115, 'P'), (91, 'P'), (265, 'V'), (286, 'K')]: ddG = -5.874246666666667 kcal/mol
+    7. [(115, 'P'), (91, 'W'), (265, 'P'), (286, 'E')]: ddG = -5.719166666666666 kcal/mol
+    8. [(265, 'P'), (115, 'P'), (92, 'R')]: ddG = -5.156256666666667 kcal/mol
+    9. [(115, 'P'), (91, 'P')]: ddG = -5.004356666666667 kcal/mol
+    10. [(7, 'P'), (91, 'P'), (265, 'P'), (106, 'I')]: ddG = -4.389376666666666 kcal/mol
+
+    Max fitness over generations:
+    [-1.6103166666666666, -2.16686, -2.16686, -2.6186333333333334, -3.25619, -3.25619, -3.59788, 
+    -4.08186, -4.08186, -5.568086666666666, -5.568086666666666, -5.568086666666666, -5.568086666666666, 
+    -5.568086666666666, -5.568086666666666, -5.568086666666666, -5.916966666666667, -5.916966666666667, 
+    -5.916966666666667, -6.476873333333334, -6.476873333333334, -6.940533333333334, -7.4494, -7.4494, -7.4494, 
+    -7.4494, -7.4494, -7.4494, -7.4494, -7.4494, -7.73032, -7.73032, -7.73032, -7.73032, -7.73032, -7.73032, -7.73032, 
+    -7.73032, -7.73032, -7.73032, -7.73032, -7.73032, -7.829136666666667, -7.829136666666667, -7.829136666666667, 
+    -7.829136666666667, -7.829136666666667, -7.829136666666667, -7.829136666666667, -7.829136666666667, -7.829136666666667]

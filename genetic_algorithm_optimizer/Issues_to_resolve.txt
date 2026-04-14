@@ -1,7 +1,7 @@
-1. Integrace prediktoru stability (FoldX, RaSP)
-2. Možnost využít FoldX pro čistý GA a využítí predikce stability každého jedince (zvládne i více než jednobodou mutaci), 
-   ale výpočetně velmi pomalé (1s na mutanta - v celku hodiny).
-3. Možnost využít RaSP - RaSP vezme strukturu proteinu a spočte všechny možnosti všech jednobodových mutací na všech pozicích.
-   Tedy možnost si nechat vyhodnotit všechny jednobodové mutace a ty pak kombinovat do 2-3 mutací a jako fitness sčítat jejich
-   ddG spočtenou pomocí RaSP (i když tím předpokládáme nezávislost mutací, což určitě neplatí) a několik nejlepších jedinců pak
-   validovat pomocí FoldX a srovnat výsledky se studií na IsPETáze.
+1. Integration of stability predictor FoldX - DONE
+2. Review the comments.
+3. Check FoldX exceptions.
+4. Change the fitness interpretation to minimaze the fitness (right now confusing the ddG)
+4. Check the "download_protein_data" method and maybe dont download it into separate directory.
+4. Implement better visualization of the results, maybe few best individuals in every generation store with mutations and fitness. Maybe plot it, or visualize.
+5. Analyze biologically the results.
