@@ -1,7 +1,33 @@
 1. Integration of stability predictor FoldX - DONE
 2. Review the comments.
 3. Check FoldX exceptions.
-4. Change the fitness interpretation to minimaze the fitness (right now confusing the ddG)
-4. Check the "download_protein_data" method and maybe dont download it into separate directory.
-4. Implement better visualization of the results, maybe few best individuals in every generation store with mutations and fitness. Maybe plot it, or visualize.
-5. Analyze biologically the results.
+4. Change the fitness interpretation to minimaze the fitness (right now confusing the ddG) - DONE
+5. Check the "download_protein_data" method and maybe dont download it into separate directory.
+6. Implement better visualization of the results, maybe few best individuals in every generation store with mutations and fitness. Maybe plot it, or visualize.
+7. Analyze biologically the results.
+    PyMOL
+    - Load IsPETase structure: load /path/A0A0K8P6T7.pdb
+    - Highlight mutated positions: select mutsites, resi residue1+residue2+...
+                                   show sticks, mutsites
+                                   color red, mutsites
+    - Show surrounding of the mutations: select environment, br. (mutsites around 5)
+                                         show sticks, environment
+                                         color yellow, environment
+    - Compute distances between mutations: distance d115-265A, (resi 115 and name CA), (resi 265 and anme CA)
+      If distance is < 10 A, mutations effects are probably coupling. Otherwise there are probably independent.
+    - Compute the SASA score: get_area all, load_b=1
+                              stored.sasa = 0
+                              iterate (resi residue), stored.sasa += b
+                              print stored.sasa
+      If SASA score is 0-20 A, residue is probably burried, if 20-60 A resiude is partially burried, and >60 A residue is on the surface.
+    - Check if mutations are close to active site (dangerous): select active, resi 131+177+208
+                                                               show sticks, active
+                                                               color blue, active
+                                                               select mutsites, resi residue1+...
+                                                               distance dActive-Muts, active, mutsites
+    - Visually check if mutations are burried or on surface: show surface
+                                                             color gray
+                                                             show sticks, resi 115+91+265+286
+                                                             color red, resi 115+91+265+286
+    Accoring to literature
+    - Check the residue type - charged, polar, non-polar... and try to explain the mutation (for example: proline in loops make them more rigid - stabilizing (Modarres))

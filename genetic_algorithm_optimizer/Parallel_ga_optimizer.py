@@ -9,6 +9,7 @@ import os
 import glob
 from multiprocessing import Pool, cpu_count
 import shutil
+import matplotlib.pyplot as plt
 
 # Method to parse the parametrization file and extract the necessary parameters
 # such as the protein code (UniProt ID), the restricted sites, the allowed amino acids,
@@ -202,6 +203,9 @@ def evaluate_individual(args):
         "--numberOfRuns=3"
     ]
     result = subprocess.run(cmd, cwd=run_directory, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    #result = subprocess.run(cmd, cwd=run_directory, capture_output=True, text=True)
+    #print("STDOUT:", result.stdout)
+    #print("STDERR:", result.stderr)
 
     # If foldX evaluation crashes for an individual, assign it the worst fitness possible.
     if result.returncode != 0:
@@ -360,6 +364,34 @@ def cleanup_foldx_dirs():
         if folder.startswith("foldx_run_"):
             shutil.rmtree(folder, ignore_errors=True)
 
+# Method to plot best fitness values and average fitness values over generations.
+def plot_fitness(best_fitness, average_fitness, output_file="fitness_plot.png"):
+    generations = list(range(len(best_fitness)))
+
+    plt.figure()
+    plt.plot(generations, best_fitness, label="Best Fitness")
+    plt.plot(generations, average_fitness, label="Average Fitness")
+    plt.xlabel("Generation")
+    plt.ylabel("Fitness (ddG kcal/mol)")
+    plt.title("Fitness over Generations")
+    plt.legend()
+    plt.grid()
+
+    plt.savefig(output_file)
+    plt.close()
+
+# Method to save the structure of the best individual found.
+def save_best_structure(best_index, generation, protein_code):
+    # Select the correct directory of the best performing individual, produced by foldX.
+    run_directory = f"foldx_run_g{generation}_i{best_index}"
+
+    # Get the structure of the best performing individual from foldX run directory.
+    pdb_files = glob.glob(os.path.join(run_directory, f"{protein_code}_*.pdb"))
+    best_pdb = pdb_files[0]
+
+    # Copy this structure into working directory.
+    shutil.copy(best_pdb, "best_individual_structure.pdb")
+
 def main():
     # Clean the working space.
     cleanup_foldx_dirs()
@@ -440,17 +472,22 @@ def main():
         last_average_fitness = sum(last_generation_fitness) / len(last_generation_fitness)
         best_fitness.append(min(last_generation_fitness))
         average_fitness.append(last_average_fitness)
-        combined = sorted(zip(population, last_generation_fitness), key=lambda x: x[1], reverse=False)
+        combined = sorted([(individual, fitness, index) for index, (individual, fitness) in enumerate(zip(population, last_generation_fitness))], key=lambda x: x[1], reverse=False)
+
+        best_individual, best_fit, best_index = combined[0]
+        save_best_structure(best_index, number_of_generations, protein_code)
 
         # Print and save to result file the top 10 individuals along with their fitness.
         log_and_print("\nTop 10 individuals:", f)
-        for i, (indiviudal, fitness_value) in enumerate(combined[:10], 1):
+        for i, (indiviudal, fitness_value, index) in enumerate(combined[:10], 1):
             log_and_print(f"{i}. {indiviudal}: ddG = {fitness_value} kcal/mol", f)
 
         # Print and save to result file the best (minimum) fitness values over generations.
-        log_and_print("\nMax fitness over generations:", f)
+        log_and_print("\nBest fitness (minimum) over generations:", f)
         log_and_print(str(best_fitness), f)
 
+        # Plot the best fitness values and average fitness values over generations.
+        plot_fitness(best_fitness, average_fitness)
         # Remove directories and files produced by foldX at the end of the program.
         cleanup_foldx_dirs()
 
