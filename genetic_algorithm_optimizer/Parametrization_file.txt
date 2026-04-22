@@ -1,10 +1,6 @@
 # Protein code from UniProt database:
 protein_code = A0A0K8P6T7
 # Defined restricted sites (that will not be mutated) such as binding sites or active sites:
-# IsPETase acitve sites: 160, 206, 237
-# IsPETase binding sites: 87, 161, 185
-# IsPETase singal peptide: 1-27
-# IsPETase disulfide bridfes: 203+239, 273+289
 restricted_sites = 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,87,160,161,185,203,206,237,239,273,289
 # Defined alphabet of amino acids:
 amino_acids = ACDEFGHIKLMNPQRSTVWY
