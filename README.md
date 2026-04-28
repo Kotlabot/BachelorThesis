@@ -14,6 +14,7 @@ The *genetic_algorithm_optimizer* directory contains the following directories a
 - File *fitness_plot.png* shows the evolution of average and best fitness over generations. It is specific to the IsPETase experiment.
 - File *best_individual_structure.pdb* contains the structure of the best mutant found during the run. This file is also specific to the IsPETase experiment.
 
+Files *Results_over_generation.txt*, *fitness_plot.png* and *best_individual_structure.pdb* are currently specific to the IsPETase experiment. However, when running this program on another protein, these files will be overwritten with the new resuls.
 
 ## Using of Genetic Algorithm Optimizer
 To use the program for another protein, clone the repository (preferably on a Linux-based system due to FoldX) and modify the parametrization file.
